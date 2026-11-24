@@ -203,3 +203,16 @@ h2 { font: 700 17px/1.25 var(--display); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 
 .headline.small + .file-grid { margin-top: 20px; }
+
+/* First-visit pointer to the plain-English guide */
+.guide-link { white-space: nowrap; font-weight: 700; font-size: 14px; text-decoration: none; color: #27336f;
+  border: 1px solid currentColor; border-radius: 999px; padding: 6px 12px; }
+.guide-link:hover { background: #27336f; color: #fff; }
+.welcome { display: flex; align-items: center; justify-content: center; gap: 10px 16px; flex-wrap: wrap; padding: 10px clamp(14px, 3vw, 40px);
+  background: #e6e8f3; border-bottom: 1px solid #d9dde3; font-size: 14.5px; color: #161b23; text-align: center; }
+.welcome[hidden] { display: none; }
+.welcome a { font-weight: 700; color: #27336f; }
+.welcome button { font: inherit; font-size: 13px; background: transparent; border: 1px solid #d9dde3; border-radius: 999px;
+  padding: 3px 10px; cursor: pointer; color: #5d6675; }
+.welcome button:hover { color: #161b23; border-color: #5d6675; }
+@media print { .welcome, .guide-link { display: none !important; } }
