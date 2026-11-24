@@ -8,6 +8,7 @@
   <link rel="preload" href="fonts/bricolage-700.woff" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="css/app.css">
   <script type="module" src="src/app.js"></script>
+  <script type="module" src="src/welcome.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to the loan book</a>
@@ -20,7 +21,12 @@
       <a data-nav href="#facility">Facility structuring</a>
       <a data-nav href="#memo">Credit note</a>
     </nav>
+    <a class="guide-link" href="guide.html">New here? Start here</a>
   </header>
+  <div class="welcome" id="welcome" role="region" aria-label="Introduction" hidden>
+    <span>New to credit monitoring? <a href="guide.html">Read the five-minute plain-English guide</a> before you start.</span>
+    <button type="button">Dismiss</button>
+  </div>
 
   <section class="stress" aria-label="Stress settings">
     <div class="stress-in">
