@@ -2,7 +2,7 @@
 
 **Live demo:** https://credence-fintech-analytics.vercel.app
 
-**New to the subject?** Start with the [plain-English guide](https://credence-fintech-analytics.vercel.app/guide.html) ([source](guide.html)): what Credence does, a tab-by-tab tour and a glossary, written for readers with no finance background.
+**New to the subject?** Start with the [plain-English guide](https://credence-fintech-analytics.vercel.app/guide.html) ([source](guide.html)): live figures from the model, a tab-by-tab tour, an exploration checklist, a capability checklist, common questions and a glossary, written for readers with no finance background.
 
 A credit-monitoring console for a fictional book of twelve Indian MSME borrowers. Two dials stress the whole book at once — a fall in cash flow and a rise in interest rates — and every view shows who stops covering their debt, how grades migrate, and what that does to expected loss.
 
