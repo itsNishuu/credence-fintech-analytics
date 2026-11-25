@@ -4,6 +4,11 @@
 
 **New to the subject?** Start with the [plain-English guide](https://credence-fintech-analytics.vercel.app/guide.html) ([source](guide.html)): live figures from the model, a tab-by-tab tour, an exploration checklist, a capability checklist, common questions and a glossary, written for readers with no finance background.
 
+**Analyst toolkit:** [`analytics/`](analytics/README.md) scales the same credit thinking to a 1,200-loan book:
+
+- **SQL:** nine queries covering roll rates, vintage curves, a covenant watchlist, sector HHI and early-warning rules. 14 tests check that the results reconcile.
+- **Power BI:** a project file with a star-schema model, 18 DAX measures and three report pages. Expected values are listed so the dashboard can be checked against the SQL.
+
 A credit-monitoring console for a fictional book of twelve Indian MSME borrowers. Two dials stress the whole book at once — a fall in cash flow and a rise in interest rates — and every view shows who stops covering their debt, how grades migrate, and what that does to expected loss.
 
 ![Loan book view: borrowers plotted by stressed debt-service cover and leverage, with the watchlist](docs/book.png)
