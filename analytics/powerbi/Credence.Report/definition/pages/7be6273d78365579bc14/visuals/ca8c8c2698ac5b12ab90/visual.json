@@ -1,0 +1,97 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "ca8c8c2698ac5b12ab90",
+  "position": {
+    "x": 16,
+    "y": 440,
+    "z": 8000,
+    "width": 760,
+    "height": 264,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Month End"
+                }
+              },
+              "queryRef": "Calendar.Month End",
+              "nativeQueryRef": "Month End",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "DPD Bucket"
+                }
+              },
+              "queryRef": "Loan Month.DPD Bucket",
+              "nativeQueryRef": "DPD Bucket"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "Exposure"
+                }
+              },
+              "queryRef": "Loan Month.Exposure",
+              "nativeQueryRef": "Exposure"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Exposure by days past due'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

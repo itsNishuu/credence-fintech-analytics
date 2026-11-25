@@ -1,0 +1,46 @@
+table Borrower
+
+	column 'Borrower ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Borrower ID
+
+	column Borrower
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Borrower
+
+	column Sector
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Sector
+
+	column 'Branch ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Branch ID
+
+	column Constitution
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Constitution
+
+	column 'Incorporated Year'
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Incorporated Year
+
+	partition Borrower = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_borrower"),
+				    Renamed = Table.RenameColumns(Source, {{"borrower_id", "Borrower ID"}, {"borrower_name", "Borrower"}, {"sector", "Sector"}, {"branch_id", "Branch ID"}, {"constitution", "Constitution"}, {"incorporated_year", "Incorporated Year"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Borrower ID", type text}, {"Borrower", type text}, {"Sector", type text}, {"Branch ID", type text}, {"Constitution", type text}, {"Incorporated Year", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,26 @@
+borrower_name,sector,city,product,exposure_lakh,dscr,prev_quarter_dscr,grade_move,dpd,rank_in_sector
+Jyoti Retail,Retail,Chennai,Term loan,241.3,1.1,0.83,D -> C,0,1
+Jyoti Builders Enterprises,Construction,Indore,Term loan,196.5,1.24,1.34,C+ -> C+,0,1
+Aarav Dairy,Food processing,Delhi NCR,Term loan,181.9,1.19,1.46,C+ -> C+,0,1
+Jyoti Logistics,Logistics,Ludhiana,Working capital,164.2,1.17,0.93,C -> D,68,1
+Ekta Agro Mills Industries,Agri processing,Bengaluru,Working capital,155.5,0.84,1.16,C -> D,0,1
+Indus Infra Projects Industries,Construction,Chennai,Equipment finance,155.4,0.98,0.96,C -> C,3,2
+Konark Polymers Pvt,Specialty chemicals,Kolkata,Working capital,152.8,1.15,1.3,C -> C,0,1
+Vindhya Fabrics,Textiles,Indore,Equipment finance,146.1,1.18,0.93,C -> C+,0,1
+Indus Infra Projects,Construction,Mumbai,Working capital,145.7,1.01,1.2,C+ -> C,0,3
+Jyoti Infra Projects,Construction,Delhi NCR,Term loan,145.3,0.76,0.81,D -> D,34,4
+Konark Fabrics Industries,Textiles,Kolkata,Working capital,144.9,1.01,0.84,D -> D,38,2
+Kaveri Spinning Mills,Textiles,Delhi NCR,Working capital,137.1,1.18,1.58,C+ -> C,0,3
+Lakshmi Weaves Enterprises,Textiles,Mumbai,Working capital,133.7,0.91,0.81,C -> D,85,4
+Indus Weaves,Textiles,Ahmedabad,Working capital,130.4,1.22,1.24,C+ -> C+,0,5
+Orchid Polymers,Specialty chemicals,Ahmedabad,Term loan,130.2,1.12,1.14,C -> D,0,2
+Konark Infra Projects,Construction,Ludhiana,Term loan,122.1,1.06,1.06,D -> C,0,5
+Bhoomi Freight Lines,Logistics,Chennai,Term loan,118.6,1.11,1.4,C -> C,0,2
+Deccan Spinning Mills,Textiles,Pune,Working capital,118.2,0.8,0.73,D -> D,69,6
+Ganga Weaves Co,Textiles,Delhi NCR,Working capital,116.1,1.16,1.15,C+ -> C+,0,7
+Deccan Systems,IT services,Mumbai,Term loan,114.5,0.95,0.98,C -> C,40,1
+Meru Fabrics Co,Textiles,Mumbai,Term loan,104.8,0.84,0.81,D -> D,0,8
+Ganga Agri Foods,Agri processing,Mumbai,Term loan,102.3,1.22,1.26,C -> C,0,2
+Lakshmi Polymers Co,Specialty chemicals,Indore,Working capital,100.5,0.89,1.24,C+ -> C,0,3
+Jyoti Hotels,Hospitality,Chennai,Term loan,100.3,1.04,1.31,C -> C,0,1
+Lakshmi Weaves,Textiles,Pune,Term loan,100.3,0.65,0.66,D -> D,0,9

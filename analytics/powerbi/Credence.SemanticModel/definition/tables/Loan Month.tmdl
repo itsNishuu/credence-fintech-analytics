@@ -1,0 +1,133 @@
+table 'Loan Month'
+
+	column 'Loan ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Loan ID
+
+	column 'Month End'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		isHidden
+		summarizeBy: none
+		sourceColumn: Month End
+
+	column 'Months On Book'
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Months On Book
+
+	column 'Outstanding Lakh'
+		dataType: double
+		formatString: #,0.0
+		isHidden
+		summarizeBy: sum
+		sourceColumn: Outstanding Lakh
+
+	column DPD
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: DPD
+
+	column 'DPD Bucket' = SWITCH ( TRUE (), 'Loan Month'[DPD] = 0, "Current", 'Loan Month'[DPD] <= 30, "1-30", 'Loan Month'[DPD] <= 60, "31-60", 'Loan Month'[DPD] <= 90, "61-90", "90+ NPA" )
+		summarizeBy: none
+		sortByColumn: 'DPD Bucket Order'
+
+	column 'DPD Bucket Order' = SWITCH ( TRUE (), 'Loan Month'[DPD] = 0, 0, 'Loan Month'[DPD] <= 30, 1, 'Loan Month'[DPD] <= 60, 2, 'Loan Month'[DPD] <= 90, 3, 4 )
+		formatString: 0
+		summarizeBy: none
+
+	measure Exposure =
+			VAR LastMonth = MAX ( 'Calendar'[Month End] )
+			RETURN
+			    CALCULATE ( SUM ( 'Loan Month'[Outstanding Lakh] ), 'Calendar'[Month End] = LastMonth )
+		formatString: #,0
+		displayFolder: Book
+
+	measure 'Live Loans' =
+			VAR LastMonth = MAX ( 'Calendar'[Month End] )
+			RETURN
+			    CALCULATE ( DISTINCTCOUNT ( 'Loan Month'[Loan ID] ), 'Calendar'[Month End] = LastMonth )
+		formatString: #,0
+		displayFolder: Book
+
+	measure 'Exposure Prior Month' =
+			VAR PriorMonth = EOMONTH ( MAX ( 'Calendar'[Month End] ), -1 )
+			RETURN
+			    CALCULATE ( SUM ( 'Loan Month'[Outstanding Lakh] ), REMOVEFILTERS ( 'Calendar' ), 'Calendar'[Month End] = PriorMonth )
+		formatString: #,0
+		displayFolder: Book
+
+	measure 'Exposure MoM %' =
+			DIVIDE ( [Exposure] - [Exposure Prior Month], [Exposure Prior Month] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Book
+
+	measure 'Share of Book' =
+			DIVIDE ( [Exposure], CALCULATE ( [Exposure], ALLSELECTED ( Borrower ) ) )
+		formatString: 0.0%
+		displayFolder: Book
+
+	measure 'NPA Exposure' =
+			CALCULATE ( [Exposure], 'Loan Month'[DPD] > 90 )
+		formatString: #,0
+		displayFolder: Asset quality
+
+	measure 'Gross NPA %' =
+			DIVIDE ( [NPA Exposure], [Exposure] )
+		formatString: 0.00%
+		displayFolder: Asset quality
+
+	measure '30+ DPD %' =
+			DIVIDE ( CALCULATE ( [Exposure], 'Loan Month'[DPD] > 30 ), [Exposure] )
+		formatString: 0.00%
+		displayFolder: Asset quality
+
+	measure 'Gross NPA % 12M Ago' =
+			VAR YearAgo = EOMONTH ( MAX ( 'Calendar'[Month End] ), -12 )
+			VAR Book =
+			    CALCULATE ( SUM ( 'Loan Month'[Outstanding Lakh] ), REMOVEFILTERS ( 'Calendar' ), 'Calendar'[Month End] = YearAgo )
+			VAR Npa =
+			    CALCULATE (
+			        SUM ( 'Loan Month'[Outstanding Lakh] ),
+			        REMOVEFILTERS ( 'Calendar' ),
+			        'Calendar'[Month End] = YearAgo,
+			        'Loan Month'[DPD] > 90
+			    )
+			RETURN
+			    DIVIDE ( Npa, Book )
+		formatString: 0.00%
+		displayFolder: Asset quality
+
+	measure 'NPA Change bps' =
+			( [Gross NPA %] - [Gross NPA % 12M Ago] ) * 10000
+		formatString: +0;-0;0
+		displayFolder: Asset quality
+
+	measure 'Expected Loss' =
+			-- Illustrative: exposure x origination-grade PD x 45% loss given default
+			SUMX ( Loan, [Exposure] * RELATED ( Grade[PD 12m] ) * 0.45 )
+		formatString: #,0.0
+		displayFolder: Asset quality
+
+	measure 'Sector HHI' =
+			VAR Total = [Exposure]
+			RETURN
+			    SUMX ( VALUES ( Borrower[Sector] ), DIVIDE ( [Exposure], Total ) ^ 2 ) * 10000
+		formatString: #,0
+		displayFolder: Concentration
+
+	partition 'Loan Month' = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("fact_loan_month"),
+				    Renamed = Table.RenameColumns(Source, {{"loan_id", "Loan ID"}, {"month_end", "Month End"}, {"months_on_book", "Months On Book"}, {"outstanding_lakh", "Outstanding Lakh"}, {"dpd", "DPD"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Loan ID", type text}, {"Month End", type date}, {"Months On Book", Int64.Type}, {"Outstanding Lakh", type number}, {"DPD", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

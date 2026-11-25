@@ -1,0 +1,1201 @@
+borrower_id,borrower_name,sector,branch_id,constitution,incorporated_year
+B00001,Tara Carriers,Logistics,BR02,Proprietorship,2014
+B00002,Shivam Life Sciences,Pharmaceuticals,BR02,Partnership,2019
+B00003,Deccan Chemicals,Specialty chemicals,BR04,Private limited,1993
+B00004,Meru Stays,Hospitality,BR07,Proprietorship,2006
+B00005,Meru Fabrics,Textiles,BR04,Partnership,2003
+B00006,Konark Constructions,Construction,BR09,Private limited,1989
+B00007,Orchid Digital Services,IT services,BR06,Private limited,1990
+B00008,Prakash Weaves,Textiles,BR04,Private limited,2008
+B00009,Indus Auto Distributors,Components distribution,BR09,Private limited,2009
+B00010,Narmada Forgings,Auto components,BR08,Partnership,2007
+B00011,Tara Stores,Retail,BR10,Partnership,2010
+B00012,Meru Life Sciences,Pharmaceuticals,BR05,Private limited,2003
+B00013,Chandra Life Sciences,Pharmaceuticals,BR07,Proprietorship,1988
+B00014,Himalaya Auto Distributors,Components distribution,BR01,Proprietorship,2000
+B00015,Narmada Digital Services,IT services,BR06,Proprietorship,2004
+B00016,Nilgiri Builders,Construction,BR09,Private limited,1991
+B00017,Ekta Forgings,Auto components,BR08,Private limited,1993
+B00018,Konark Auto Distributors,Components distribution,BR07,Private limited,2014
+B00019,Shivam Resorts,Hospitality,BR08,Private limited,1995
+B00020,Himalaya Snacks,Food processing,BR08,Proprietorship,1998
+B00021,Himalaya Polymers,Specialty chemicals,BR05,Private limited,2013
+B00022,Jyoti Life Sciences,Pharmaceuticals,BR02,Proprietorship,1995
+B00023,Kaveri Agro Mills,Agri processing,BR07,Partnership,1995
+B00024,Vindhya Snacks,Food processing,BR07,Partnership,1995
+B00025,Sahyadri Infra Projects,Construction,BR02,Private limited,2016
+B00026,Konark Spares Traders,Components distribution,BR03,Private limited,2009
+B00027,Lakshmi Stays,Hospitality,BR02,Private limited,2009
+B00028,Prakash Carriers,Logistics,BR05,Private limited,2000
+B00029,Udaya Freight Lines,Logistics,BR07,Partnership,2010
+B00030,Yamuna Stores,Retail,BR08,Proprietorship,2011
+B00031,Tara Systems,IT services,BR04,Partnership,2018
+B00032,Deccan Infra Projects,Construction,BR09,Private limited,1996
+B00033,Shivam Dairy,Food processing,BR06,Proprietorship,2014
+B00034,Deccan Formulations,Pharmaceuticals,BR01,Private limited,2015
+B00035,Meru Formulations,Pharmaceuticals,BR02,Proprietorship,1998
+B00036,Tara Formulations,Pharmaceuticals,BR02,Partnership,2005
+B00037,Yamuna Logistics,Logistics,BR10,Partnership,1989
+B00038,Nilgiri Stores,Retail,BR01,Private limited,1999
+B00039,Udaya Agri Foods,Agri processing,BR06,Partnership,2016
+B00040,Ganga Formulations,Pharmaceuticals,BR04,Private limited,1992
+B00041,Kaveri Chemicals,Specialty chemicals,BR01,Private limited,2004
+B00042,Indus Auto Distributors Enterprises,Components distribution,BR09,Private limited,2009
+B00043,Indus Retail,Retail,BR08,Private limited,2011
+B00044,Saraswati Foods,Food processing,BR06,Private limited,2012
+B00045,Sahyadri Agri Foods,Agri processing,BR08,Partnership,2012
+B00046,Saraswati Logistics,Logistics,BR08,Private limited,1989
+B00047,Udaya Foods,Food processing,BR07,Partnership,2005
+B00048,Nilgiri Spares Traders,Components distribution,BR01,Private limited,2006
+B00049,Bhoomi Auto Parts,Auto components,BR04,Partnership,2003
+B00050,Aarav Snacks,Food processing,BR04,Partnership,1998
+B00051,Ganga Castings,Auto components,BR06,Partnership,2002
+B00052,Saraswati Forgings,Auto components,BR01,Private limited,1993
+B00053,Ekta Auto Distributors,Components distribution,BR05,Partnership,1997
+B00054,Meru Stores,Retail,BR07,Partnership,2007
+B00055,Aarav Auto Distributors,Components distribution,BR09,Partnership,2013
+B00056,Chandra Chemicals,Specialty chemicals,BR10,Partnership,2011
+B00057,Narmada Infra Projects,Construction,BR09,Private limited,1991
+B00058,Indus Infra Projects,Construction,BR02,Private limited,2018
+B00059,Tara Spares Traders,Components distribution,BR03,Proprietorship,2005
+B00060,Orchid Digital Services Pvt,IT services,BR06,Private limited,2004
+B00061,Shivam Fabrics,Textiles,BR10,Private limited,2000
+B00062,Konark Chemicals,Specialty chemicals,BR05,Private limited,2003
+B00063,Shivam Logistics,Logistics,BR02,Partnership,1994
+B00064,Lakshmi Freight Lines,Logistics,BR01,Private limited,1998
+B00065,Bhoomi Dairy,Food processing,BR02,Private limited,1997
+B00066,Meru Mart,Retail,BR08,Private limited,1991
+B00067,Sahyadri Foods,Food processing,BR06,Private limited,2015
+B00068,Nilgiri Constructions,Construction,BR05,Private limited,2003
+B00069,Konark Builders,Construction,BR06,Proprietorship,1999
+B00070,Lakshmi Weaves,Textiles,BR01,Private limited,1994
+B00071,Ganga Auto Parts,Auto components,BR06,Private limited,2019
+B00072,Indus Snacks,Food processing,BR04,Partnership,2005
+B00073,Yamuna Auto Distributors,Components distribution,BR10,Private limited,2007
+B00074,Nilgiri Spares Traders Co,Components distribution,BR03,Private limited,2016
+B00075,Kaveri Forgings,Auto components,BR01,Partnership,1998
+B00076,Udaya Life Sciences,Pharmaceuticals,BR07,Proprietorship,2010
+B00077,Bhoomi Polymers,Specialty chemicals,BR05,Private limited,1999
+B00078,Aarav Constructions,Construction,BR10,Partnership,2002
+B00079,Bhoomi Infotech,IT services,BR02,Proprietorship,2008
+B00080,Ekta Snacks,Food processing,BR08,Partnership,2001
+B00081,Ekta Formulations,Pharmaceuticals,BR10,Proprietorship,2010
+B00082,Kaveri Dairy,Food processing,BR03,Private limited,2017
+B00083,Saraswati Castings,Auto components,BR04,Private limited,1992
+B00084,Lakshmi Agri Foods,Agri processing,BR10,Private limited,2019
+B00085,Tara Hotels,Hospitality,BR07,Private limited,2017
+B00086,Ganga Constructions,Construction,BR02,Private limited,1991
+B00087,Shivam Snacks,Food processing,BR07,Partnership,2009
+B00088,Meru Agri Foods,Agri processing,BR08,Proprietorship,2016
+B00089,Tara Infra Projects,Construction,BR03,Private limited,1988
+B00090,Indus Agro Mills,Agri processing,BR03,Partnership,1990
+B00091,Ekta Forgings Co,Auto components,BR08,Proprietorship,2009
+B00092,Shivam Agro Mills,Agri processing,BR02,Private limited,2003
+B00093,Orchid Chemicals,Specialty chemicals,BR08,Proprietorship,2010
+B00094,Narmada Castings,Auto components,BR06,Proprietorship,2008
+B00095,Vindhya Retail,Retail,BR03,Private limited,2007
+B00096,Aarav Stores,Retail,BR07,Private limited,1999
+B00097,Yamuna Digital Services,IT services,BR08,Proprietorship,2003
+B00098,Himalaya Formulations,Pharmaceuticals,BR05,Private limited,1998
+B00099,Prakash Mart,Retail,BR04,Private limited,2008
+B00100,Lakshmi Agri Foods Industries,Agri processing,BR07,Partnership,2001
+B00101,Vindhya Logistics,Logistics,BR08,Proprietorship,2008
+B00102,Nilgiri Digital Services,IT services,BR01,Partnership,1996
+B00103,Yamuna Hotels,Hospitality,BR08,Proprietorship,2014
+B00104,Yamuna Resorts,Hospitality,BR06,Private limited,2001
+B00105,Udaya Resorts,Hospitality,BR04,Partnership,2004
+B00106,Indus Hotels,Hospitality,BR07,Proprietorship,2017
+B00107,Chandra Stores,Retail,BR03,Private limited,2014
+B00108,Himalaya Spares Traders,Components distribution,BR03,Proprietorship,2002
+B00109,Indus Infra Projects Enterprises,Construction,BR09,Partnership,1995
+B00110,Jyoti Stores,Retail,BR01,Private limited,1988
+B00111,Konark Life Sciences,Pharmaceuticals,BR09,Private limited,1994
+B00112,Deccan Constructions,Construction,BR09,Proprietorship,2003
+B00113,Bhoomi Builders,Construction,BR06,Partnership,2013
+B00114,Narmada Forgings Enterprises,Auto components,BR04,Private limited,2019
+B00115,Kaveri Spares Traders,Components distribution,BR09,Private limited,2016
+B00116,Udaya Resorts Pvt,Hospitality,BR09,Proprietorship,1993
+B00117,Deccan Agri Foods,Agri processing,BR09,Partnership,1993
+B00118,Jyoti Logistics,Logistics,BR08,Private limited,2000
+B00119,Bhoomi Weaves,Textiles,BR05,Private limited,1989
+B00120,Indus Mart,Retail,BR04,Partnership,2007
+B00121,Orchid Snacks,Food processing,BR01,Private limited,2013
+B00122,Indus Resorts,Hospitality,BR03,Proprietorship,2006
+B00123,Jyoti Constructions,Construction,BR07,Private limited,1988
+B00124,Bhoomi Systems,IT services,BR01,Partnership,1988
+B00125,Jyoti Agri Foods,Agri processing,BR07,Partnership,1995
+B00126,Tara Auto Parts,Auto components,BR04,Private limited,1989
+B00127,Tara Forgings,Auto components,BR06,Private limited,2003
+B00128,Indus Auto Distributors Co,Components distribution,BR03,Private limited,2017
+B00129,Bhoomi Auto Distributors,Components distribution,BR04,Partnership,2001
+B00130,Nilgiri Foods,Food processing,BR01,Partnership,2009
+B00131,Lakshmi Spares Traders,Components distribution,BR07,Partnership,1995
+B00132,Jyoti Spares Traders,Components distribution,BR01,Partnership,1990
+B00133,Himalaya Stays,Hospitality,BR04,Private limited,2014
+B00134,Lakshmi Life Sciences,Pharmaceuticals,BR08,Partnership,2016
+B00135,Nilgiri Formulations,Pharmaceuticals,BR07,Partnership,2006
+B00136,Himalaya Forgings,Auto components,BR02,Private limited,1992
+B00137,Tara Chemicals,Specialty chemicals,BR09,Private limited,2003
+B00138,Deccan Stores,Retail,BR05,Private limited,2017
+B00139,Konark Stores,Retail,BR06,Private limited,2013
+B00140,Yamuna Builders,Construction,BR09,Partnership,2013
+B00141,Shivam Agro Mills Industries,Agri processing,BR04,Partnership,2019
+B00142,Jyoti Auto Parts,Auto components,BR03,Partnership,1990
+B00143,Prakash Agri Foods,Agri processing,BR07,Proprietorship,1993
+B00144,Deccan Agro Mills,Agri processing,BR05,Partnership,1999
+B00145,Narmada Mart,Retail,BR03,Partnership,2014
+B00146,Deccan Auto Distributors,Components distribution,BR09,Partnership,2012
+B00147,Udaya Infra Projects,Construction,BR06,Private limited,1989
+B00148,Ganga Formulations Industries,Pharmaceuticals,BR08,Partnership,2012
+B00149,Shivam Mart,Retail,BR06,Proprietorship,2003
+B00150,Udaya Agri Foods Co,Agri processing,BR08,Private limited,2008
+B00151,Sahyadri Formulations,Pharmaceuticals,BR08,Partnership,1995
+B00152,Indus Agri Foods,Agri processing,BR02,Private limited,1988
+B00153,Narmada Digital Services Co,IT services,BR09,Partnership,2001
+B00154,Ganga Fabrics,Textiles,BR03,Private limited,2011
+B00155,Aarav Castings,Auto components,BR04,Proprietorship,2009
+B00156,Sahyadri Builders,Construction,BR02,Proprietorship,2000
+B00157,Lakshmi Stays Industries,Hospitality,BR09,Private limited,1998
+B00158,Chandra Logistics,Logistics,BR03,Private limited,2004
+B00159,Saraswati Chemicals,Specialty chemicals,BR03,Proprietorship,1997
+B00160,Yamuna Freight Lines,Logistics,BR08,Partnership,2016
+B00161,Himalaya Freight Lines,Logistics,BR05,Private limited,2013
+B00162,Prakash Spares Traders,Components distribution,BR02,Proprietorship,1995
+B00163,Narmada Stays,Hospitality,BR07,Partnership,1995
+B00164,Ganga Agro Mills,Agri processing,BR02,Private limited,2009
+B00165,Orchid Spinning Mills,Textiles,BR10,Private limited,2016
+B00166,Aarav Builders,Construction,BR03,Private limited,1989
+B00167,Aarav Auto Distributors Pvt,Components distribution,BR09,Partnership,1989
+B00168,Sahyadri Chemicals,Specialty chemicals,BR03,Partnership,1992
+B00169,Shivam Infotech,IT services,BR01,Partnership,2016
+B00170,Kaveri Life Sciences,Pharmaceuticals,BR10,Partnership,1997
+B00171,Ganga Systems,IT services,BR05,Private limited,1997
+B00172,Prakash Foods,Food processing,BR10,Private limited,2005
+B00173,Meru Stays Pvt,Hospitality,BR10,Partnership,2007
+B00174,Yamuna Castings,Auto components,BR01,Proprietorship,1993
+B00175,Kaveri Weaves,Textiles,BR08,Proprietorship,1994
+B00176,Lakshmi Digital Services,IT services,BR05,Partnership,2012
+B00177,Sahyadri Castings,Auto components,BR07,Partnership,2016
+B00178,Jyoti Chemicals,Specialty chemicals,BR10,Proprietorship,1993
+B00179,Vindhya Auto Parts,Auto components,BR10,Private limited,2013
+B00180,Udaya Weaves,Textiles,BR07,Partnership,2002
+B00181,Bhoomi Life Sciences,Pharmaceuticals,BR07,Private limited,2000
+B00182,Jyoti Resorts,Hospitality,BR08,Partnership,1996
+B00183,Shivam Forgings,Auto components,BR07,Private limited,2011
+B00184,Udaya Auto Distributors,Components distribution,BR01,Private limited,2010
+B00185,Sahyadri Life Sciences,Pharmaceuticals,BR10,Private limited,2008
+B00186,Tara Spares Traders Industries,Components distribution,BR08,Private limited,2007
+B00187,Kaveri Systems,IT services,BR02,Partnership,1997
+B00188,Orchid Polymers,Specialty chemicals,BR03,Private limited,1992
+B00189,Jyoti Infra Projects,Construction,BR07,Private limited,2013
+B00190,Lakshmi Digital Services Pvt,IT services,BR02,Private limited,2008
+B00191,Deccan Spinning Mills,Textiles,BR01,Private limited,2010
+B00192,Aarav Infotech,IT services,BR04,Partnership,1995
+B00193,Meru Freight Lines,Logistics,BR03,Private limited,2004
+B00194,Saraswati Freight Lines,Logistics,BR06,Proprietorship,1999
+B00195,Kaveri Life Sciences Enterprises,Pharmaceuticals,BR10,Private limited,2000
+B00196,Tara Infra Projects Industries,Construction,BR04,Partnership,1994
+B00197,Lakshmi Snacks,Food processing,BR09,Private limited,1999
+B00198,Aarav Freight Lines,Logistics,BR06,Private limited,1993
+B00199,Udaya Auto Distributors Co,Components distribution,BR10,Proprietorship,2002
+B00200,Lakshmi Hotels,Hospitality,BR05,Proprietorship,2016
+B00201,Meru Snacks,Food processing,BR01,Proprietorship,2015
+B00202,Ekta Spinning Mills,Textiles,BR03,Partnership,2014
+B00203,Himalaya Castings,Auto components,BR08,Private limited,2002
+B00204,Prakash Agri Foods Industries,Agri processing,BR01,Proprietorship,2012
+B00205,Himalaya Logistics,Logistics,BR04,Private limited,1996
+B00206,Deccan Fabrics,Textiles,BR09,Private limited,1990
+B00207,Indus Weaves,Textiles,BR03,Private limited,1993
+B00208,Meru Hotels,Hospitality,BR07,Proprietorship,1988
+B00209,Ekta Stores,Retail,BR03,Proprietorship,2016
+B00210,Indus Forgings,Auto components,BR07,Partnership,1990
+B00211,Kaveri Digital Services,IT services,BR05,Partnership,1990
+B00212,Meru Stores Co,Retail,BR02,Partnership,2018
+B00213,Ekta Foods,Food processing,BR10,Private limited,2015
+B00214,Himalaya Life Sciences,Pharmaceuticals,BR01,Partnership,1995
+B00215,Ekta Hotels,Hospitality,BR04,Private limited,2006
+B00216,Indus Retail Co,Retail,BR07,Private limited,1995
+B00217,Ganga Spares Traders,Components distribution,BR02,Private limited,2004
+B00218,Chandra Agro Mills,Agri processing,BR05,Partnership,2013
+B00219,Sahyadri Castings Co,Auto components,BR02,Private limited,1989
+B00220,Ekta Resorts,Hospitality,BR10,Proprietorship,1999
+B00221,Aarav Dairy,Food processing,BR07,Proprietorship,2002
+B00222,Himalaya Fabrics,Textiles,BR05,Proprietorship,1994
+B00223,Ekta Forgings Industries,Auto components,BR09,Partnership,2016
+B00224,Prakash Mart Industries,Retail,BR08,Partnership,1992
+B00225,Narmada Polymers,Specialty chemicals,BR01,Private limited,2019
+B00226,Saraswati Dairy,Food processing,BR05,Private limited,2002
+B00227,Orchid Mart,Retail,BR03,Proprietorship,2004
+B00228,Konark Formulations,Pharmaceuticals,BR05,Private limited,2013
+B00229,Ganga Snacks,Food processing,BR01,Partnership,1996
+B00230,Deccan Fabrics Enterprises,Textiles,BR06,Private limited,2005
+B00231,Udaya Builders,Construction,BR10,Private limited,1988
+B00232,Sahyadri Infra Projects Industries,Construction,BR08,Private limited,2018
+B00233,Ganga Spares Traders Co,Components distribution,BR08,Private limited,2013
+B00234,Kaveri Spares Traders Enterprises,Components distribution,BR09,Proprietorship,1996
+B00235,Udaya Auto Distributors Enterprises,Components distribution,BR04,Private limited,2011
+B00236,Udaya Castings,Auto components,BR08,Partnership,2011
+B00237,Shivam Stays,Hospitality,BR01,Proprietorship,2006
+B00238,Konark Chemicals Co,Specialty chemicals,BR01,Proprietorship,2006
+B00239,Nilgiri Agro Mills,Agri processing,BR03,Partnership,2017
+B00240,Konark Agri Foods,Agri processing,BR09,Private limited,2014
+B00241,Konark Infra Projects,Construction,BR08,Private limited,2008
+B00242,Chandra Snacks,Food processing,BR02,Partnership,2019
+B00243,Kaveri Infotech,IT services,BR01,Proprietorship,2011
+B00244,Kaveri Agri Foods,Agri processing,BR08,Private limited,2019
+B00245,Tara Hotels Industries,Hospitality,BR09,Proprietorship,2005
+B00246,Udaya Digital Services,IT services,BR05,Proprietorship,1990
+B00247,Orchid Fabrics,Textiles,BR10,Partnership,2010
+B00248,Tara Weaves,Textiles,BR05,Private limited,1993
+B00249,Sahyadri Forgings,Auto components,BR01,Proprietorship,1988
+B00250,Tara Hotels Enterprises,Hospitality,BR02,Partnership,1996
+B00251,Meru Agri Foods Industries,Agri processing,BR03,Partnership,2015
+B00252,Narmada Dairy,Food processing,BR08,Proprietorship,1990
+B00253,Orchid Carriers,Logistics,BR09,Proprietorship,2013
+B00254,Jyoti Polymers,Specialty chemicals,BR02,Private limited,2007
+B00255,Himalaya Infotech,IT services,BR06,Partnership,2015
+B00256,Ekta Spinning Mills Industries,Textiles,BR02,Private limited,1997
+B00257,Aarav Life Sciences,Pharmaceuticals,BR02,Private limited,1991
+B00258,Shivam Auto Parts,Auto components,BR04,Private limited,2019
+B00259,Kaveri Systems Pvt,IT services,BR03,Partnership,2019
+B00260,Udaya Spinning Mills,Textiles,BR04,Private limited,2018
+B00261,Kaveri Infra Projects,Construction,BR04,Partnership,2013
+B00262,Ganga Foods,Food processing,BR08,Proprietorship,1995
+B00263,Ganga Stays,Hospitality,BR10,Proprietorship,2012
+B00264,Ekta Formulations Enterprises,Pharmaceuticals,BR07,Proprietorship,2019
+B00265,Bhoomi Forgings,Auto components,BR03,Partnership,2001
+B00266,Himalaya Polymers Enterprises,Specialty chemicals,BR08,Private limited,1989
+B00267,Lakshmi Foods,Food processing,BR08,Private limited,1999
+B00268,Konark Forgings,Auto components,BR01,Private limited,2012
+B00269,Tara Life Sciences,Pharmaceuticals,BR08,Private limited,1998
+B00270,Indus Infra Projects Industries,Construction,BR04,Private limited,2011
+B00271,Chandra Stays,Hospitality,BR09,Partnership,2000
+B00272,Jyoti Polymers Co,Specialty chemicals,BR04,Partnership,1991
+B00273,Ekta Agri Foods,Agri processing,BR07,Partnership,1999
+B00274,Indus Infotech,IT services,BR09,Partnership,1992
+B00275,Nilgiri Polymers,Specialty chemicals,BR08,Proprietorship,2014
+B00276,Aarav Chemicals,Specialty chemicals,BR01,Proprietorship,1990
+B00277,Ganga Formulations Enterprises,Pharmaceuticals,BR10,Private limited,1993
+B00278,Ekta Digital Services,IT services,BR04,Proprietorship,2009
+B00279,Aarav Fabrics,Textiles,BR08,Proprietorship,1995
+B00280,Lakshmi Retail,Retail,BR08,Private limited,2008
+B00281,Narmada Spares Traders,Components distribution,BR04,Private limited,2012
+B00282,Konark Spares Traders Pvt,Components distribution,BR04,Partnership,1989
+B00283,Ganga Infotech,IT services,BR04,Partnership,2002
+B00284,Jyoti Infra Projects Pvt,Construction,BR06,Partnership,1996
+B00285,Kaveri Dairy Enterprises,Food processing,BR03,Private limited,1996
+B00286,Yamuna Forgings,Auto components,BR10,Proprietorship,2014
+B00287,Jyoti Hotels,Hospitality,BR04,Private limited,2002
+B00288,Jyoti Hotels Pvt,Hospitality,BR06,Private limited,1997
+B00289,Meru Logistics,Logistics,BR09,Private limited,2014
+B00290,Vindhya Systems,IT services,BR06,Private limited,2009
+B00291,Ganga Weaves,Textiles,BR09,Private limited,2018
+B00292,Bhoomi Agro Mills,Agri processing,BR03,Proprietorship,2013
+B00293,Chandra Infra Projects,Construction,BR06,Private limited,1990
+B00294,Aarav Forgings,Auto components,BR08,Private limited,2003
+B00295,Deccan Chemicals Enterprises,Specialty chemicals,BR02,Private limited,2011
+B00296,Narmada Forgings Industries,Auto components,BR03,Proprietorship,2016
+B00297,Meru Systems,IT services,BR04,Proprietorship,2014
+B00298,Jyoti Formulations,Pharmaceuticals,BR08,Private limited,2001
+B00299,Ganga Auto Parts Pvt,Auto components,BR10,Partnership,2002
+B00300,Konark Mart,Retail,BR01,Proprietorship,2018
+B00301,Aarav Builders Industries,Construction,BR02,Partnership,1998
+B00302,Udaya Polymers,Specialty chemicals,BR01,Proprietorship,2009
+B00303,Chandra Infra Projects Enterprises,Construction,BR06,Partnership,1999
+B00304,Orchid Auto Parts,Auto components,BR01,Private limited,2016
+B00305,Chandra Auto Parts,Auto components,BR07,Private limited,2011
+B00306,Sahyadri Auto Parts,Auto components,BR06,Private limited,2001
+B00307,Konark Agri Foods Enterprises,Agri processing,BR06,Private limited,1992
+B00308,Chandra Constructions,Construction,BR07,Partnership,2001
+B00309,Chandra Life Sciences Co,Pharmaceuticals,BR10,Proprietorship,2019
+B00310,Indus Life Sciences,Pharmaceuticals,BR02,Private limited,2014
+B00311,Vindhya Stays,Hospitality,BR10,Partnership,1997
+B00312,Lakshmi Resorts,Hospitality,BR08,Partnership,2010
+B00313,Ganga Retail,Retail,BR07,Partnership,1999
+B00314,Udaya Freight Lines Industries,Logistics,BR04,Partnership,1996
+B00315,Indus Castings,Auto components,BR01,Proprietorship,1989
+B00316,Saraswati Carriers,Logistics,BR02,Proprietorship,1999
+B00317,Himalaya Snacks Co,Food processing,BR02,Partnership,2011
+B00318,Konark Stores Industries,Retail,BR04,Proprietorship,1988
+B00319,Prakash Spares Traders Enterprises,Components distribution,BR05,Private limited,2017
+B00320,Deccan Agri Foods Enterprises,Agri processing,BR03,Private limited,1988
+B00321,Narmada Mart Pvt,Retail,BR04,Private limited,1992
+B00322,Narmada Formulations,Pharmaceuticals,BR02,Private limited,2015
+B00323,Udaya Agri Foods Pvt,Agri processing,BR02,Proprietorship,1994
+B00324,Konark Retail,Retail,BR01,Proprietorship,2018
+B00325,Vindhya Agri Foods,Agri processing,BR10,Partnership,2007
+B00326,Shivam Spares Traders,Components distribution,BR09,Proprietorship,2000
+B00327,Orchid Constructions,Construction,BR04,Private limited,2011
+B00328,Aarav Agri Foods,Agri processing,BR08,Partnership,1988
+B00329,Chandra Resorts,Hospitality,BR09,Private limited,2005
+B00330,Bhoomi Chemicals,Specialty chemicals,BR05,Proprietorship,2001
+B00331,Prakash Chemicals,Specialty chemicals,BR02,Proprietorship,1996
+B00332,Himalaya Constructions,Construction,BR05,Proprietorship,2009
+B00333,Shivam Life Sciences Co,Pharmaceuticals,BR09,Private limited,2017
+B00334,Ganga Spares Traders Pvt,Components distribution,BR05,Partnership,2011
+B00335,Konark Forgings Co,Auto components,BR06,Private limited,2005
+B00336,Sahyadri Mart,Retail,BR07,Private limited,1999
+B00337,Sahyadri Castings Pvt,Auto components,BR01,Private limited,2009
+B00338,Udaya Weaves Enterprises,Textiles,BR05,Private limited,2018
+B00339,Sahyadri Fabrics,Textiles,BR06,Partnership,2011
+B00340,Bhoomi Logistics,Logistics,BR04,Proprietorship,2012
+B00341,Jyoti Systems,IT services,BR10,Private limited,2013
+B00342,Chandra Formulations,Pharmaceuticals,BR08,Private limited,1991
+B00343,Lakshmi Carriers,Logistics,BR05,Private limited,2006
+B00344,Meru Fabrics Pvt,Textiles,BR06,Private limited,2013
+B00345,Ekta Stays,Hospitality,BR09,Partnership,2012
+B00346,Konark Auto Parts,Auto components,BR10,Proprietorship,1994
+B00347,Sahyadri Spinning Mills,Textiles,BR07,Private limited,2014
+B00348,Narmada Life Sciences,Pharmaceuticals,BR03,Private limited,2005
+B00349,Indus Snacks Pvt,Food processing,BR07,Proprietorship,2002
+B00350,Prakash Stays,Hospitality,BR01,Private limited,2007
+B00351,Prakash Castings,Auto components,BR04,Private limited,2002
+B00352,Udaya Mart,Retail,BR06,Private limited,1990
+B00353,Jyoti Dairy,Food processing,BR04,Private limited,1999
+B00354,Orchid Auto Distributors,Components distribution,BR03,Private limited,2009
+B00355,Himalaya Digital Services,IT services,BR01,Private limited,2011
+B00356,Yamuna Logistics Enterprises,Logistics,BR05,Partnership,2019
+B00357,Ekta Hotels Enterprises,Hospitality,BR10,Proprietorship,2013
+B00358,Narmada Auto Parts,Auto components,BR06,Private limited,1990
+B00359,Meru Formulations Co,Pharmaceuticals,BR08,Partnership,1998
+B00360,Indus Builders,Construction,BR06,Private limited,1992
+B00361,Shivam Auto Distributors,Components distribution,BR08,Proprietorship,1988
+B00362,Nilgiri Fabrics,Textiles,BR05,Private limited,2010
+B00363,Prakash Carriers Co,Logistics,BR04,Private limited,2006
+B00364,Udaya Retail,Retail,BR04,Proprietorship,2006
+B00365,Orchid Carriers Enterprises,Logistics,BR06,Private limited,1991
+B00366,Konark Stores Pvt,Retail,BR03,Private limited,1999
+B00367,Narmada Agro Mills,Agri processing,BR10,Private limited,2014
+B00368,Lakshmi Foods Pvt,Food processing,BR10,Private limited,2017
+B00369,Kaveri Builders,Construction,BR07,Private limited,2017
+B00370,Tara Auto Distributors,Components distribution,BR08,Partnership,1999
+B00371,Shivam Infotech Pvt,IT services,BR03,Private limited,2010
+B00372,Tara Infotech,IT services,BR07,Proprietorship,2007
+B00373,Deccan Castings,Auto components,BR03,Proprietorship,1999
+B00374,Sahyadri Hotels,Hospitality,BR03,Proprietorship,2006
+B00375,Narmada Stays Enterprises,Hospitality,BR07,Private limited,1997
+B00376,Vindhya Forgings,Auto components,BR01,Private limited,2016
+B00377,Prakash Auto Distributors,Components distribution,BR02,Private limited,2012
+B00378,Konark Digital Services,IT services,BR05,Private limited,2005
+B00379,Ganga Mart,Retail,BR07,Private limited,2013
+B00380,Shivam Life Sciences Industries,Pharmaceuticals,BR09,Private limited,2000
+B00381,Shivam Polymers,Specialty chemicals,BR02,Private limited,1990
+B00382,Nilgiri Carriers,Logistics,BR01,Private limited,2006
+B00383,Lakshmi Life Sciences Co,Pharmaceuticals,BR03,Private limited,1999
+B00384,Deccan Spares Traders,Components distribution,BR06,Private limited,2005
+B00385,Deccan Chemicals Pvt,Specialty chemicals,BR03,Partnership,2004
+B00386,Shivam Polymers Co,Specialty chemicals,BR04,Private limited,2012
+B00387,Narmada Infra Projects Industries,Construction,BR01,Private limited,2002
+B00388,Jyoti Stores Industries,Retail,BR09,Private limited,2018
+B00389,Kaveri Agro Mills Pvt,Agri processing,BR07,Private limited,2006
+B00390,Shivam Auto Parts Co,Auto components,BR05,Partnership,1998
+B00391,Yamuna Life Sciences,Pharmaceuticals,BR08,Private limited,2013
+B00392,Orchid Mart Enterprises,Retail,BR01,Proprietorship,2000
+B00393,Saraswati Digital Services,IT services,BR02,Private limited,2018
+B00394,Meru Spinning Mills,Textiles,BR08,Private limited,2010
+B00395,Nilgiri Infotech,IT services,BR06,Private limited,1998
+B00396,Orchid Snacks Industries,Food processing,BR06,Partnership,2017
+B00397,Jyoti Dairy Co,Food processing,BR04,Proprietorship,2012
+B00398,Shivam Freight Lines,Logistics,BR03,Private limited,1989
+B00399,Chandra Logistics Pvt,Logistics,BR01,Proprietorship,2019
+B00400,Chandra Resorts Pvt,Hospitality,BR07,Private limited,1998
+B00401,Jyoti Constructions Pvt,Construction,BR09,Private limited,1997
+B00402,Lakshmi Hotels Enterprises,Hospitality,BR09,Private limited,2004
+B00403,Lakshmi Stores,Retail,BR09,Private limited,1988
+B00404,Indus Foods,Food processing,BR06,Partnership,1998
+B00405,Orchid Constructions Industries,Construction,BR08,Proprietorship,1992
+B00406,Indus Infra Projects Pvt,Construction,BR09,Partnership,2019
+B00407,Aarav Hotels,Hospitality,BR08,Proprietorship,1991
+B00408,Lakshmi Castings,Auto components,BR09,Partnership,2018
+B00409,Sahyadri Weaves,Textiles,BR02,Partnership,2010
+B00410,Himalaya Agro Mills,Agri processing,BR10,Private limited,2011
+B00411,Aarav Agro Mills,Agri processing,BR03,Partnership,2003
+B00412,Bhoomi Forgings Industries,Auto components,BR09,Private limited,1989
+B00413,Sahyadri Systems,IT services,BR08,Private limited,1999
+B00414,Bhoomi Formulations,Pharmaceuticals,BR01,Partnership,2017
+B00415,Meru Resorts,Hospitality,BR03,Proprietorship,1999
+B00416,Chandra Auto Distributors,Components distribution,BR02,Private limited,1988
+B00417,Lakshmi Infra Projects,Construction,BR09,Private limited,2003
+B00418,Jyoti Stays,Hospitality,BR07,Private limited,2000
+B00419,Sahyadri Chemicals Pvt,Specialty chemicals,BR06,Partnership,1988
+B00420,Shivam Infra Projects,Construction,BR08,Partnership,1999
+B00421,Shivam Weaves,Textiles,BR04,Proprietorship,1994
+B00422,Orchid Auto Parts Pvt,Auto components,BR03,Private limited,2018
+B00423,Bhoomi Retail,Retail,BR02,Private limited,1991
+B00424,Kaveri Digital Services Pvt,IT services,BR07,Partnership,1998
+B00425,Nilgiri Spinning Mills,Textiles,BR02,Private limited,1990
+B00426,Aarav Chemicals Pvt,Specialty chemicals,BR08,Private limited,1989
+B00427,Sahyadri Digital Services,IT services,BR05,Private limited,2008
+B00428,Kaveri Resorts,Hospitality,BR09,Proprietorship,2015
+B00429,Jyoti Castings,Auto components,BR10,Private limited,1993
+B00430,Vindhya Freight Lines,Logistics,BR10,Proprietorship,2006
+B00431,Saraswati Weaves,Textiles,BR01,Private limited,1988
+B00432,Nilgiri Fabrics Co,Textiles,BR07,Private limited,1992
+B00433,Aarav Auto Parts,Auto components,BR06,Partnership,2008
+B00434,Himalaya Digital Services Co,IT services,BR05,Partnership,2011
+B00435,Bhoomi Mart,Retail,BR06,Partnership,1991
+B00436,Jyoti Infotech,IT services,BR04,Private limited,1996
+B00437,Ganga Agri Foods,Agri processing,BR02,Proprietorship,1993
+B00438,Deccan Chemicals Industries,Specialty chemicals,BR06,Partnership,2005
+B00439,Meru Life Sciences Industries,Pharmaceuticals,BR06,Private limited,1995
+B00440,Ekta Resorts Co,Hospitality,BR01,Private limited,2006
+B00441,Saraswati Dairy Industries,Food processing,BR04,Private limited,2016
+B00442,Aarav Agri Foods Industries,Agri processing,BR07,Proprietorship,2011
+B00443,Yamuna Auto Parts,Auto components,BR08,Private limited,1990
+B00444,Shivam Auto Distributors Co,Components distribution,BR04,Private limited,2015
+B00445,Narmada Spares Traders Industries,Components distribution,BR07,Partnership,2007
+B00446,Vindhya Auto Distributors,Components distribution,BR03,Partnership,2003
+B00447,Shivam Constructions,Construction,BR09,Proprietorship,1995
+B00448,Narmada Snacks,Food processing,BR01,Partnership,1991
+B00449,Deccan Stays,Hospitality,BR06,Partnership,1988
+B00450,Narmada Infotech,IT services,BR06,Partnership,2013
+B00451,Himalaya Weaves,Textiles,BR03,Private limited,2015
+B00452,Saraswati Stays,Hospitality,BR01,Private limited,1990
+B00453,Vindhya Constructions,Construction,BR01,Proprietorship,2004
+B00454,Meru Life Sciences Co,Pharmaceuticals,BR07,Private limited,2003
+B00455,Aarav Retail,Retail,BR02,Private limited,2011
+B00456,Kaveri Spinning Mills,Textiles,BR07,Private limited,2014
+B00457,Chandra Life Sciences Enterprises,Pharmaceuticals,BR04,Private limited,1996
+B00458,Tara Constructions,Construction,BR03,Private limited,1998
+B00459,Saraswati Fabrics,Textiles,BR01,Partnership,1989
+B00460,Vindhya Formulations,Pharmaceuticals,BR02,Private limited,2003
+B00461,Yamuna Polymers,Specialty chemicals,BR06,Proprietorship,2005
+B00462,Udaya Digital Services Industries,IT services,BR06,Partnership,2005
+B00463,Ekta Foods Co,Food processing,BR03,Proprietorship,2014
+B00464,Aarav Stores Industries,Retail,BR02,Partnership,1997
+B00465,Vindhya Dairy,Food processing,BR01,Partnership,1988
+B00466,Bhoomi Retail Pvt,Retail,BR10,Proprietorship,2000
+B00467,Jyoti Formulations Enterprises,Pharmaceuticals,BR10,Proprietorship,1997
+B00468,Prakash Stores,Retail,BR02,Private limited,2005
+B00469,Tara Forgings Enterprises,Auto components,BR08,Partnership,2018
+B00470,Sahyadri Digital Services Pvt,IT services,BR10,Private limited,2004
+B00471,Yamuna Agro Mills,Agri processing,BR07,Proprietorship,2012
+B00472,Himalaya Builders,Construction,BR03,Partnership,2002
+B00473,Saraswati Infra Projects,Construction,BR04,Private limited,2017
+B00474,Kaveri Constructions,Construction,BR05,Partnership,2016
+B00475,Shivam Mart Co,Retail,BR07,Partnership,2000
+B00476,Meru Chemicals,Specialty chemicals,BR08,Partnership,2015
+B00477,Chandra Agri Foods,Agri processing,BR08,Partnership,2002
+B00478,Lakshmi Spinning Mills,Textiles,BR07,Partnership,2001
+B00479,Tara Builders,Construction,BR09,Private limited,1996
+B00480,Lakshmi Polymers,Specialty chemicals,BR10,Private limited,1995
+B00481,Indus Stays,Hospitality,BR06,Proprietorship,2011
+B00482,Narmada Formulations Industries,Pharmaceuticals,BR05,Partnership,2003
+B00483,Jyoti Weaves,Textiles,BR06,Private limited,1996
+B00484,Tara Stays,Hospitality,BR03,Proprietorship,2008
+B00485,Shivam Forgings Co,Auto components,BR10,Private limited,2001
+B00486,Bhoomi Stores,Retail,BR03,Private limited,1993
+B00487,Yamuna Spares Traders,Components distribution,BR08,Private limited,1994
+B00488,Orchid Life Sciences,Pharmaceuticals,BR09,Private limited,2010
+B00489,Sahyadri Auto Parts Co,Auto components,BR07,Private limited,2016
+B00490,Shivam Logistics Co,Logistics,BR10,Partnership,1993
+B00491,Narmada Formulations Co,Pharmaceuticals,BR03,Proprietorship,2017
+B00492,Tara Dairy,Food processing,BR05,Private limited,2015
+B00493,Indus Chemicals,Specialty chemicals,BR07,Private limited,1997
+B00494,Yamuna Digital Services Pvt,IT services,BR02,Private limited,2019
+B00495,Nilgiri Dairy,Food processing,BR01,Partnership,2013
+B00496,Narmada Digital Services Industries,IT services,BR05,Private limited,1991
+B00497,Orchid Constructions Enterprises,Construction,BR09,Private limited,2019
+B00498,Ekta Auto Distributors Pvt,Components distribution,BR06,Proprietorship,2004
+B00499,Lakshmi Forgings,Auto components,BR02,Partnership,1990
+B00500,Indus Chemicals Enterprises,Specialty chemicals,BR08,Partnership,2019
+B00501,Vindhya Carriers,Logistics,BR07,Partnership,2006
+B00502,Prakash Dairy,Food processing,BR08,Proprietorship,1988
+B00503,Jyoti Infra Projects Enterprises,Construction,BR01,Private limited,1997
+B00504,Himalaya Auto Distributors Pvt,Components distribution,BR04,Proprietorship,1991
+B00505,Tara Foods,Food processing,BR05,Proprietorship,2019
+B00506,Saraswati Agri Foods,Agri processing,BR10,Partnership,2005
+B00507,Shivam Freight Lines Industries,Logistics,BR08,Partnership,2009
+B00508,Lakshmi Life Sciences Industries,Pharmaceuticals,BR06,Private limited,1996
+B00509,Bhoomi Systems Co,IT services,BR01,Private limited,2018
+B00510,Nilgiri Life Sciences,Pharmaceuticals,BR06,Proprietorship,2010
+B00511,Saraswati Polymers,Specialty chemicals,BR05,Private limited,1991
+B00512,Tara Logistics,Logistics,BR07,Private limited,1995
+B00513,Aarav Castings Industries,Auto components,BR05,Private limited,2019
+B00514,Prakash Resorts,Hospitality,BR08,Proprietorship,2009
+B00515,Shivam Builders,Construction,BR08,Partnership,1991
+B00516,Orchid Systems,IT services,BR08,Private limited,1994
+B00517,Aarav Mart,Retail,BR07,Partnership,2001
+B00518,Himalaya Freight Lines Pvt,Logistics,BR08,Private limited,1988
+B00519,Orchid Chemicals Pvt,Specialty chemicals,BR06,Private limited,2002
+B00520,Tara Stores Pvt,Retail,BR09,Partnership,2009
+B00521,Tara Digital Services,IT services,BR02,Proprietorship,2017
+B00522,Himalaya Systems,IT services,BR02,Partnership,2013
+B00523,Bhoomi Spinning Mills,Textiles,BR06,Partnership,2000
+B00524,Meru Carriers,Logistics,BR02,Private limited,2012
+B00525,Bhoomi Resorts,Hospitality,BR09,Private limited,2013
+B00526,Tara Fabrics,Textiles,BR01,Proprietorship,2002
+B00527,Ekta Agro Mills,Agri processing,BR08,Proprietorship,2000
+B00528,Yamuna Castings Pvt,Auto components,BR03,Private limited,1989
+B00529,Meru Digital Services,IT services,BR02,Private limited,1992
+B00530,Shivam Systems,IT services,BR08,Partnership,1988
+B00531,Vindhya Snacks Enterprises,Food processing,BR10,Partnership,2007
+B00532,Aarav Spares Traders,Components distribution,BR08,Partnership,1996
+B00533,Jyoti Builders,Construction,BR08,Private limited,2008
+B00534,Meru Logistics Co,Logistics,BR01,Proprietorship,2019
+B00535,Tara Systems Pvt,IT services,BR10,Proprietorship,2013
+B00536,Tara Life Sciences Co,Pharmaceuticals,BR10,Private limited,1988
+B00537,Udaya Spinning Mills Industries,Textiles,BR02,Private limited,2013
+B00538,Jyoti Auto Parts Industries,Auto components,BR06,Private limited,2008
+B00539,Chandra Agri Foods Enterprises,Agri processing,BR01,Partnership,2008
+B00540,Chandra Snacks Enterprises,Food processing,BR09,Private limited,2016
+B00541,Tara Logistics Enterprises,Logistics,BR04,Private limited,1989
+B00542,Ganga Dairy,Food processing,BR09,Proprietorship,2016
+B00543,Himalaya Auto Distributors Co,Components distribution,BR04,Private limited,2010
+B00544,Bhoomi Life Sciences Pvt,Pharmaceuticals,BR02,Private limited,2017
+B00545,Aarav Agro Mills Industries,Agri processing,BR07,Partnership,1999
+B00546,Nilgiri Infra Projects,Construction,BR07,Proprietorship,2019
+B00547,Kaveri Weaves Pvt,Textiles,BR03,Proprietorship,2011
+B00548,Meru Mart Enterprises,Retail,BR04,Partnership,2007
+B00549,Tara Builders Co,Construction,BR07,Proprietorship,1997
+B00550,Sahyadri Fabrics Industries,Textiles,BR01,Partnership,1991
+B00551,Deccan Life Sciences,Pharmaceuticals,BR02,Partnership,1994
+B00552,Bhoomi Life Sciences Enterprises,Pharmaceuticals,BR05,Partnership,2007
+B00553,Bhoomi Agri Foods,Agri processing,BR10,Partnership,2015
+B00554,Konark Spinning Mills,Textiles,BR06,Private limited,2009
+B00555,Sahyadri Life Sciences Pvt,Pharmaceuticals,BR10,Partnership,1992
+B00556,Kaveri Agro Mills Co,Agri processing,BR04,Private limited,2015
+B00557,Narmada Chemicals,Specialty chemicals,BR10,Private limited,1992
+B00558,Vindhya Fabrics,Textiles,BR10,Partnership,1994
+B00559,Saraswati Systems,IT services,BR06,Private limited,1989
+B00560,Bhoomi Carriers,Logistics,BR08,Private limited,2015
+B00561,Nilgiri Infotech Co,IT services,BR04,Partnership,2013
+B00562,Aarav Hotels Enterprises,Hospitality,BR04,Partnership,2010
+B00563,Sahyadri Hotels Co,Hospitality,BR01,Partnership,1995
+B00564,Shivam Spares Traders Industries,Components distribution,BR02,Partnership,2000
+B00565,Vindhya Spares Traders,Components distribution,BR03,Partnership,2017
+B00566,Konark Life Sciences Co,Pharmaceuticals,BR07,Private limited,1989
+B00567,Bhoomi Systems Enterprises,IT services,BR02,Private limited,1995
+B00568,Saraswati Carriers Enterprises,Logistics,BR04,Private limited,1992
+B00569,Prakash Polymers,Specialty chemicals,BR10,Private limited,2003
+B00570,Kaveri Constructions Pvt,Construction,BR07,Partnership,2004
+B00571,Deccan Logistics,Logistics,BR04,Private limited,2004
+B00572,Nilgiri Agro Mills Co,Agri processing,BR07,Private limited,1988
+B00573,Ganga Spares Traders Enterprises,Components distribution,BR09,Private limited,1992
+B00574,Konark Resorts,Hospitality,BR02,Private limited,2007
+B00575,Narmada Hotels,Hospitality,BR09,Private limited,1991
+B00576,Tara Formulations Enterprises,Pharmaceuticals,BR03,Private limited,1988
+B00577,Deccan Agro Mills Enterprises,Agri processing,BR07,Proprietorship,2004
+B00578,Himalaya Mart,Retail,BR03,Partnership,1999
+B00579,Kaveri Mart,Retail,BR08,Private limited,1992
+B00580,Bhoomi Fabrics,Textiles,BR06,Private limited,1997
+B00581,Nilgiri Castings,Auto components,BR05,Proprietorship,1997
+B00582,Meru Weaves,Textiles,BR02,Private limited,2014
+B00583,Yamuna Infotech,IT services,BR06,Private limited,1999
+B00584,Shivam Fabrics Industries,Textiles,BR01,Private limited,1995
+B00585,Konark Systems,IT services,BR04,Private limited,1992
+B00586,Shivam Retail,Retail,BR03,Private limited,1995
+B00587,Lakshmi Spares Traders Enterprises,Components distribution,BR02,Partnership,1990
+B00588,Nilgiri Chemicals,Specialty chemicals,BR02,Private limited,2009
+B00589,Kaveri Hotels,Hospitality,BR05,Partnership,1994
+B00590,Nilgiri Fabrics Industries,Textiles,BR03,Private limited,2004
+B00591,Ekta Castings,Auto components,BR02,Proprietorship,1988
+B00592,Vindhya Snacks Industries,Food processing,BR03,Private limited,2005
+B00593,Yamuna Auto Parts Industries,Auto components,BR07,Partnership,2003
+B00594,Chandra Castings,Auto components,BR09,Private limited,2015
+B00595,Tara Agro Mills,Agri processing,BR01,Private limited,2019
+B00596,Indus Systems,IT services,BR07,Private limited,1988
+B00597,Chandra Auto Parts Industries,Auto components,BR07,Partnership,2015
+B00598,Yamuna Mart,Retail,BR01,Proprietorship,2008
+B00599,Himalaya Spares Traders Enterprises,Components distribution,BR03,Partnership,2005
+B00600,Lakshmi Snacks Enterprises,Food processing,BR04,Private limited,2007
+B00601,Konark Resorts Enterprises,Hospitality,BR03,Private limited,2001
+B00602,Yamuna Castings Industries,Auto components,BR07,Private limited,2011
+B00603,Indus Spinning Mills,Textiles,BR10,Private limited,1992
+B00604,Chandra Snacks Pvt,Food processing,BR09,Partnership,2017
+B00605,Udaya Weaves Co,Textiles,BR04,Partnership,1993
+B00606,Lakshmi Forgings Co,Auto components,BR01,Proprietorship,2011
+B00607,Ekta Retail,Retail,BR09,Proprietorship,1998
+B00608,Kaveri Infra Projects Industries,Construction,BR05,Proprietorship,2016
+B00609,Meru Dairy,Food processing,BR04,Private limited,1991
+B00610,Jyoti Auto Distributors,Components distribution,BR01,Partnership,2014
+B00611,Jyoti Chemicals Co,Specialty chemicals,BR04,Proprietorship,1991
+B00612,Tara Foods Pvt,Food processing,BR03,Proprietorship,1993
+B00613,Bhoomi Chemicals Pvt,Specialty chemicals,BR01,Private limited,2017
+B00614,Kaveri Auto Distributors,Components distribution,BR07,Private limited,2003
+B00615,Chandra Stays Pvt,Hospitality,BR09,Partnership,1997
+B00616,Himalaya Snacks Pvt,Food processing,BR02,Partnership,1992
+B00617,Tara Digital Services Enterprises,IT services,BR05,Private limited,1989
+B00618,Lakshmi Forgings Pvt,Auto components,BR07,Partnership,2013
+B00619,Tara Chemicals Co,Specialty chemicals,BR04,Private limited,1993
+B00620,Yamuna Agro Mills Enterprises,Agri processing,BR05,Proprietorship,2015
+B00621,Yamuna Mart Enterprises,Retail,BR06,Partnership,1999
+B00622,Himalaya Life Sciences Co,Pharmaceuticals,BR05,Private limited,2019
+B00623,Vindhya Auto Parts Enterprises,Auto components,BR07,Proprietorship,1989
+B00624,Konark Polymers,Specialty chemicals,BR09,Partnership,1999
+B00625,Indus Castings Pvt,Auto components,BR09,Partnership,1990
+B00626,Jyoti Spares Traders Pvt,Components distribution,BR01,Partnership,2018
+B00627,Kaveri Dairy Pvt,Food processing,BR08,Private limited,1996
+B00628,Indus Infotech Enterprises,IT services,BR05,Private limited,2014
+B00629,Ganga Auto Distributors,Components distribution,BR03,Proprietorship,2019
+B00630,Narmada Freight Lines,Logistics,BR06,Private limited,2009
+B00631,Udaya Carriers,Logistics,BR05,Proprietorship,2002
+B00632,Jyoti Auto Distributors Enterprises,Components distribution,BR05,Private limited,2018
+B00633,Orchid Dairy,Food processing,BR04,Partnership,2006
+B00634,Sahyadri Agro Mills,Agri processing,BR08,Private limited,2002
+B00635,Lakshmi Builders,Construction,BR07,Private limited,1993
+B00636,Udaya Spares Traders,Components distribution,BR09,Partnership,2011
+B00637,Ekta Snacks Industries,Food processing,BR04,Private limited,2016
+B00638,Konark Logistics,Logistics,BR02,Private limited,2001
+B00639,Indus Life Sciences Industries,Pharmaceuticals,BR08,Private limited,2004
+B00640,Meru Freight Lines Co,Logistics,BR10,Private limited,1989
+B00641,Meru Spinning Mills Co,Textiles,BR04,Private limited,2004
+B00642,Meru Dairy Industries,Food processing,BR05,Partnership,1997
+B00643,Jyoti Infotech Co,IT services,BR03,Private limited,2011
+B00644,Sahyadri Formulations Industries,Pharmaceuticals,BR06,Private limited,2008
+B00645,Saraswati Life Sciences,Pharmaceuticals,BR07,Private limited,2009
+B00646,Konark Castings,Auto components,BR04,Private limited,2003
+B00647,Vindhya Infotech,IT services,BR05,Private limited,2004
+B00648,Sahyadri Stores,Retail,BR01,Private limited,2000
+B00649,Tara Agri Foods,Agri processing,BR09,Private limited,2009
+B00650,Orchid Fabrics Industries,Textiles,BR05,Private limited,2003
+B00651,Bhoomi Hotels,Hospitality,BR06,Private limited,1994
+B00652,Bhoomi Dairy Industries,Food processing,BR02,Private limited,2012
+B00653,Chandra Logistics Co,Logistics,BR09,Private limited,2017
+B00654,Shivam Castings,Auto components,BR09,Private limited,1996
+B00655,Tara Chemicals Pvt,Specialty chemicals,BR10,Partnership,2006
+B00656,Yamuna Builders Pvt,Construction,BR04,Private limited,2006
+B00657,Prakash Hotels,Hospitality,BR04,Private limited,1988
+B00658,Indus Builders Co,Construction,BR06,Private limited,2007
+B00659,Ekta Dairy,Food processing,BR06,Private limited,2018
+B00660,Vindhya Resorts,Hospitality,BR01,Partnership,2010
+B00661,Jyoti Life Sciences Pvt,Pharmaceuticals,BR01,Private limited,2003
+B00662,Aarav Forgings Co,Auto components,BR08,Private limited,2013
+B00663,Narmada Life Sciences Pvt,Pharmaceuticals,BR01,Private limited,1988
+B00664,Konark Freight Lines,Logistics,BR10,Private limited,2006
+B00665,Meru Agro Mills,Agri processing,BR01,Proprietorship,2007
+B00666,Ekta Life Sciences,Pharmaceuticals,BR06,Private limited,2019
+B00667,Konark Foods,Food processing,BR06,Private limited,1993
+B00668,Saraswati Digital Services Pvt,IT services,BR01,Private limited,2011
+B00669,Udaya Stays,Hospitality,BR02,Private limited,2007
+B00670,Sahyadri Life Sciences Co,Pharmaceuticals,BR09,Proprietorship,1993
+B00671,Prakash Agro Mills,Agri processing,BR06,Proprietorship,2012
+B00672,Nilgiri Auto Distributors,Components distribution,BR03,Proprietorship,2012
+B00673,Vindhya Chemicals,Specialty chemicals,BR05,Proprietorship,2019
+B00674,Konark Systems Pvt,IT services,BR02,Private limited,2000
+B00675,Sahyadri Logistics,Logistics,BR05,Private limited,1993
+B00676,Kaveri Infotech Pvt,IT services,BR03,Proprietorship,2008
+B00677,Udaya Life Sciences Pvt,Pharmaceuticals,BR09,Private limited,2019
+B00678,Aarav Fabrics Co,Textiles,BR10,Private limited,1991
+B00679,Lakshmi Agro Mills,Agri processing,BR02,Proprietorship,1995
+B00680,Deccan Polymers,Specialty chemicals,BR02,Partnership,2016
+B00681,Narmada Weaves,Textiles,BR04,Private limited,1994
+B00682,Konark Snacks,Food processing,BR04,Private limited,1998
+B00683,Ganga Weaves Co,Textiles,BR07,Private limited,2004
+B00684,Kaveri Agro Mills Enterprises,Agri processing,BR03,Proprietorship,2009
+B00685,Orchid Forgings,Auto components,BR07,Private limited,2005
+B00686,Prakash Foods Industries,Food processing,BR05,Private limited,2007
+B00687,Meru Weaves Industries,Textiles,BR07,Partnership,2013
+B00688,Vindhya Snacks Co,Food processing,BR07,Private limited,2007
+B00689,Vindhya Builders,Construction,BR10,Private limited,1996
+B00690,Nilgiri Dairy Pvt,Food processing,BR07,Private limited,2000
+B00691,Indus Castings Industries,Auto components,BR09,Proprietorship,1991
+B00692,Vindhya Fabrics Enterprises,Textiles,BR06,Private limited,2001
+B00693,Aarav Systems,IT services,BR09,Partnership,1993
+B00694,Meru Infotech,IT services,BR05,Private limited,1995
+B00695,Aarav Spinning Mills,Textiles,BR06,Partnership,2000
+B00696,Chandra Polymers,Specialty chemicals,BR08,Partnership,1992
+B00697,Tara Dairy Enterprises,Food processing,BR10,Private limited,2016
+B00698,Bhoomi Auto Distributors Enterprises,Components distribution,BR05,Private limited,1988
+B00699,Shivam Digital Services,IT services,BR04,Private limited,2011
+B00700,Tara Auto Distributors Industries,Components distribution,BR03,Private limited,2008
+B00701,Shivam Spinning Mills,Textiles,BR03,Private limited,2010
+B00702,Tara Auto Distributors Enterprises,Components distribution,BR02,Proprietorship,2019
+B00703,Deccan Life Sciences Co,Pharmaceuticals,BR07,Private limited,2010
+B00704,Udaya Castings Industries,Auto components,BR01,Private limited,2018
+B00705,Yamuna Polymers Pvt,Specialty chemicals,BR01,Proprietorship,2002
+B00706,Shivam Digital Services Enterprises,IT services,BR02,Private limited,2001
+B00707,Konark Life Sciences Industries,Pharmaceuticals,BR09,Private limited,1993
+B00708,Tara Resorts,Hospitality,BR07,Private limited,2014
+B00709,Chandra Infotech,IT services,BR03,Proprietorship,2011
+B00710,Jyoti Snacks,Food processing,BR01,Private limited,2008
+B00711,Sahyadri Chemicals Enterprises,Specialty chemicals,BR08,Partnership,2008
+B00712,Yamuna Mart Co,Retail,BR01,Proprietorship,2004
+B00713,Chandra Spares Traders,Components distribution,BR04,Private limited,2008
+B00714,Bhoomi Auto Parts Enterprises,Auto components,BR03,Private limited,2019
+B00715,Chandra Mart,Retail,BR04,Private limited,1998
+B00716,Orchid Polymers Enterprises,Specialty chemicals,BR07,Private limited,2005
+B00717,Narmada Logistics,Logistics,BR01,Private limited,2003
+B00718,Chandra Stays Industries,Hospitality,BR10,Partnership,2016
+B00719,Tara Infotech Pvt,IT services,BR07,Proprietorship,2018
+B00720,Ganga Mart Industries,Retail,BR09,Proprietorship,2002
+B00721,Jyoti Agri Foods Enterprises,Agri processing,BR02,Private limited,1994
+B00722,Meru Infra Projects,Construction,BR02,Private limited,2014
+B00723,Udaya Infotech,IT services,BR09,Partnership,2002
+B00724,Bhoomi Spinning Mills Industries,Textiles,BR01,Private limited,2011
+B00725,Meru Forgings,Auto components,BR03,Private limited,2012
+B00726,Deccan Spares Traders Pvt,Components distribution,BR06,Private limited,1993
+B00727,Lakshmi Builders Pvt,Construction,BR03,Private limited,1989
+B00728,Chandra Agri Foods Co,Agri processing,BR10,Private limited,1997
+B00729,Tara Auto Parts Pvt,Auto components,BR10,Private limited,1991
+B00730,Kaveri Auto Parts,Auto components,BR10,Private limited,1997
+B00731,Udaya Stays Pvt,Hospitality,BR10,Partnership,1993
+B00732,Aarav Forgings Industries,Auto components,BR01,Private limited,2007
+B00733,Konark Fabrics,Textiles,BR06,Partnership,2009
+B00734,Prakash Hotels Enterprises,Hospitality,BR04,Proprietorship,1995
+B00735,Lakshmi Stores Industries,Retail,BR05,Private limited,1995
+B00736,Kaveri Mart Enterprises,Retail,BR04,Partnership,2018
+B00737,Sahyadri Spares Traders,Components distribution,BR03,Partnership,2013
+B00738,Bhoomi Builders Enterprises,Construction,BR03,Private limited,1990
+B00739,Ganga Polymers,Specialty chemicals,BR07,Partnership,2002
+B00740,Chandra Builders,Construction,BR07,Private limited,2004
+B00741,Deccan Digital Services,IT services,BR07,Partnership,2002
+B00742,Orchid Agri Foods,Agri processing,BR10,Proprietorship,2017
+B00743,Jyoti Freight Lines,Logistics,BR04,Proprietorship,1996
+B00744,Lakshmi Forgings Enterprises,Auto components,BR06,Partnership,2019
+B00745,Chandra Life Sciences Industries,Pharmaceuticals,BR04,Private limited,2009
+B00746,Bhoomi Auto Parts Industries,Auto components,BR05,Private limited,2017
+B00747,Orchid Formulations,Pharmaceuticals,BR03,Proprietorship,2016
+B00748,Prakash Auto Parts,Auto components,BR04,Proprietorship,2001
+B00749,Nilgiri Systems,IT services,BR01,Partnership,1993
+B00750,Indus Systems Co,IT services,BR05,Private limited,1990
+B00751,Bhoomi Fabrics Industries,Textiles,BR01,Private limited,1997
+B00752,Sahyadri Retail,Retail,BR05,Private limited,2009
+B00753,Prakash Weaves Industries,Textiles,BR02,Partnership,2006
+B00754,Sahyadri Agri Foods Industries,Agri processing,BR10,Proprietorship,1991
+B00755,Himalaya Constructions Enterprises,Construction,BR04,Private limited,1988
+B00756,Orchid Logistics,Logistics,BR01,Private limited,1988
+B00757,Deccan Hotels,Hospitality,BR05,Partnership,2001
+B00758,Konark Auto Distributors Enterprises,Components distribution,BR07,Partnership,2005
+B00759,Orchid Auto Distributors Industries,Components distribution,BR03,Private limited,1994
+B00760,Prakash Fabrics,Textiles,BR06,Private limited,2011
+B00761,Kaveri Builders Enterprises,Construction,BR09,Private limited,2012
+B00762,Chandra Freight Lines,Logistics,BR10,Proprietorship,2003
+B00763,Konark Chemicals Industries,Specialty chemicals,BR02,Private limited,2012
+B00764,Indus Formulations,Pharmaceuticals,BR05,Partnership,2005
+B00765,Yamuna Formulations,Pharmaceuticals,BR01,Private limited,1997
+B00766,Kaveri Resorts Co,Hospitality,BR09,Private limited,2016
+B00767,Saraswati Weaves Enterprises,Textiles,BR09,Private limited,1994
+B00768,Bhoomi Polymers Industries,Specialty chemicals,BR07,Partnership,2005
+B00769,Jyoti Builders Enterprises,Construction,BR10,Private limited,2007
+B00770,Shivam Castings Industries,Auto components,BR01,Private limited,2019
+B00771,Orchid Agri Foods Industries,Agri processing,BR09,Private limited,1990
+B00772,Shivam Dairy Industries,Food processing,BR03,Private limited,1998
+B00773,Ganga Spinning Mills,Textiles,BR06,Partnership,2011
+B00774,Prakash Retail,Retail,BR10,Private limited,2006
+B00775,Indus Snacks Co,Food processing,BR08,Partnership,2016
+B00776,Deccan Auto Distributors Industries,Components distribution,BR07,Proprietorship,2014
+B00777,Chandra Infotech Industries,IT services,BR03,Private limited,2016
+B00778,Prakash Agro Mills Industries,Agri processing,BR09,Private limited,2004
+B00779,Narmada Spares Traders Enterprises,Components distribution,BR02,Private limited,2004
+B00780,Ekta Fabrics,Textiles,BR06,Partnership,1988
+B00781,Jyoti Constructions Industries,Construction,BR09,Private limited,1991
+B00782,Vindhya Constructions Industries,Construction,BR01,Private limited,1991
+B00783,Kaveri Constructions Co,Construction,BR07,Proprietorship,2014
+B00784,Meru Castings,Auto components,BR06,Partnership,1992
+B00785,Jyoti Mart,Retail,BR07,Partnership,2007
+B00786,Nilgiri Mart,Retail,BR04,Private limited,2015
+B00787,Udaya Infra Projects Pvt,Construction,BR08,Partnership,1993
+B00788,Orchid Forgings Enterprises,Auto components,BR08,Partnership,2004
+B00789,Jyoti Stores Pvt,Retail,BR09,Private limited,2003
+B00790,Indus Logistics,Logistics,BR06,Private limited,2011
+B00791,Chandra Castings Pvt,Auto components,BR03,Proprietorship,2016
+B00792,Chandra Auto Distributors Pvt,Components distribution,BR05,Private limited,1988
+B00793,Konark Retail Enterprises,Retail,BR04,Partnership,2008
+B00794,Vindhya Infra Projects,Construction,BR07,Partnership,1997
+B00795,Tara Infra Projects Pvt,Construction,BR10,Private limited,2010
+B00796,Meru Stores Industries,Retail,BR06,Proprietorship,1998
+B00797,Tara Polymers,Specialty chemicals,BR03,Private limited,2014
+B00798,Jyoti Agro Mills,Agri processing,BR01,Private limited,1991
+B00799,Yamuna Logistics Industries,Logistics,BR02,Partnership,2006
+B00800,Konark Freight Lines Co,Logistics,BR06,Proprietorship,2001
+B00801,Himalaya Mart Enterprises,Retail,BR07,Private limited,2018
+B00802,Ganga Chemicals,Specialty chemicals,BR02,Private limited,2012
+B00803,Kaveri Retail,Retail,BR01,Private limited,2009
+B00804,Himalaya Agro Mills Pvt,Agri processing,BR06,Partnership,1992
+B00805,Aarav Hotels Pvt,Hospitality,BR02,Private limited,2002
+B00806,Tara Snacks,Food processing,BR06,Proprietorship,1998
+B00807,Orchid Formulations Enterprises,Pharmaceuticals,BR09,Private limited,2001
+B00808,Udaya Formulations,Pharmaceuticals,BR08,Private limited,2007
+B00809,Bhoomi Polymers Enterprises,Specialty chemicals,BR02,Partnership,1996
+B00810,Meru Infotech Enterprises,IT services,BR07,Private limited,2014
+B00811,Kaveri Life Sciences Industries,Pharmaceuticals,BR03,Proprietorship,2012
+B00812,Tara Stays Enterprises,Hospitality,BR06,Proprietorship,1993
+B00813,Prakash Hotels Pvt,Hospitality,BR01,Private limited,2017
+B00814,Konark Polymers Co,Specialty chemicals,BR04,Proprietorship,2017
+B00815,Indus Polymers,Specialty chemicals,BR10,Proprietorship,2015
+B00816,Bhoomi Hotels Industries,Hospitality,BR06,Partnership,2015
+B00817,Bhoomi Foods,Food processing,BR02,Private limited,1992
+B00818,Shivam Snacks Co,Food processing,BR06,Proprietorship,1991
+B00819,Orchid Retail,Retail,BR03,Partnership,1991
+B00820,Bhoomi Retail Enterprises,Retail,BR02,Partnership,2009
+B00821,Bhoomi Constructions,Construction,BR01,Partnership,2003
+B00822,Narmada Systems,IT services,BR03,Proprietorship,2018
+B00823,Kaveri Mart Co,Retail,BR04,Private limited,2012
+B00824,Prakash Spares Traders Pvt,Components distribution,BR07,Private limited,2003
+B00825,Ganga Retail Pvt,Retail,BR03,Private limited,2000
+B00826,Vindhya Logistics Pvt,Logistics,BR05,Private limited,1989
+B00827,Aarav Mart Pvt,Retail,BR04,Private limited,2014
+B00828,Udaya Logistics,Logistics,BR08,Private limited,2008
+B00829,Vindhya Constructions Pvt,Construction,BR07,Private limited,1997
+B00830,Vindhya Retail Enterprises,Retail,BR03,Private limited,2013
+B00831,Indus Formulations Pvt,Pharmaceuticals,BR02,Private limited,1999
+B00832,Nilgiri Formulations Pvt,Pharmaceuticals,BR05,Private limited,1990
+B00833,Meru Fabrics Co,Textiles,BR02,Private limited,2005
+B00834,Ekta Spares Traders,Components distribution,BR03,Private limited,2017
+B00835,Chandra Builders Enterprises,Construction,BR07,Partnership,2014
+B00836,Chandra Polymers Industries,Specialty chemicals,BR08,Partnership,2005
+B00837,Meru Digital Services Co,IT services,BR06,Private limited,2013
+B00838,Nilgiri Agri Foods,Agri processing,BR05,Private limited,1993
+B00839,Aarav Digital Services,IT services,BR01,Private limited,2004
+B00840,Jyoti Castings Pvt,Auto components,BR10,Partnership,1991
+B00841,Yamuna Builders Enterprises,Construction,BR05,Proprietorship,2007
+B00842,Saraswati Snacks,Food processing,BR05,Partnership,2008
+B00843,Lakshmi Logistics,Logistics,BR04,Private limited,1998
+B00844,Meru Life Sciences Pvt,Pharmaceuticals,BR08,Private limited,1999
+B00845,Sahyadri Agri Foods Pvt,Agri processing,BR05,Partnership,2019
+B00846,Chandra Carriers,Logistics,BR02,Private limited,2013
+B00847,Shivam Forgings Enterprises,Auto components,BR01,Partnership,1996
+B00848,Saraswati Agro Mills,Agri processing,BR02,Private limited,2018
+B00849,Vindhya Life Sciences,Pharmaceuticals,BR04,Partnership,2005
+B00850,Ganga Life Sciences,Pharmaceuticals,BR09,Private limited,2018
+B00851,Yamuna Resorts Industries,Hospitality,BR09,Private limited,2002
+B00852,Ganga Fabrics Industries,Textiles,BR01,Partnership,1999
+B00853,Bhoomi Castings,Auto components,BR05,Private limited,2004
+B00854,Chandra Spinning Mills,Textiles,BR02,Private limited,2003
+B00855,Ekta Foods Industries,Food processing,BR05,Private limited,1996
+B00856,Nilgiri Infra Projects Enterprises,Construction,BR03,Partnership,2007
+B00857,Konark Polymers Pvt,Specialty chemicals,BR09,Partnership,2019
+B00858,Prakash Snacks,Food processing,BR06,Private limited,2011
+B00859,Himalaya Systems Co,IT services,BR07,Proprietorship,2013
+B00860,Deccan Infra Projects Industries,Construction,BR10,Private limited,2019
+B00861,Prakash Agro Mills Enterprises,Agri processing,BR07,Private limited,2014
+B00862,Ekta Hotels Co,Hospitality,BR08,Partnership,2009
+B00863,Lakshmi Fabrics,Textiles,BR08,Partnership,1998
+B00864,Nilgiri Auto Distributors Co,Components distribution,BR01,Private limited,1991
+B00865,Tara Weaves Co,Textiles,BR05,Private limited,1988
+B00866,Bhoomi Spares Traders,Components distribution,BR01,Partnership,2013
+B00867,Deccan Systems,IT services,BR02,Private limited,1988
+B00868,Saraswati Foods Pvt,Food processing,BR02,Private limited,2003
+B00869,Ganga Life Sciences Enterprises,Pharmaceuticals,BR02,Proprietorship,1999
+B00870,Jyoti Retail,Retail,BR04,Private limited,2019
+B00871,Bhoomi Castings Enterprises,Auto components,BR06,Private limited,1993
+B00872,Chandra Fabrics,Textiles,BR07,Partnership,2007
+B00873,Deccan Foods,Food processing,BR01,Proprietorship,2019
+B00874,Deccan Chemicals Co,Specialty chemicals,BR02,Private limited,2010
+B00875,Indus Spares Traders,Components distribution,BR05,Partnership,1995
+B00876,Kaveri Stores,Retail,BR08,Private limited,2005
+B00877,Vindhya Carriers Industries,Logistics,BR08,Private limited,2002
+B00878,Deccan Agri Foods Industries,Agri processing,BR06,Private limited,2001
+B00879,Lakshmi Snacks Pvt,Food processing,BR02,Private limited,2005
+B00880,Aarav Fabrics Enterprises,Textiles,BR04,Proprietorship,2018
+B00881,Prakash Foods Enterprises,Food processing,BR07,Partnership,1994
+B00882,Prakash Polymers Co,Specialty chemicals,BR08,Partnership,2007
+B00883,Konark Spinning Mills Co,Textiles,BR07,Proprietorship,1997
+B00884,Nilgiri Logistics,Logistics,BR06,Proprietorship,2000
+B00885,Konark Builders Co,Construction,BR08,Private limited,2017
+B00886,Yamuna Formulations Enterprises,Pharmaceuticals,BR01,Private limited,2019
+B00887,Indus Spares Traders Co,Components distribution,BR05,Private limited,2001
+B00888,Vindhya Weaves,Textiles,BR05,Private limited,1990
+B00889,Lakshmi Auto Parts,Auto components,BR09,Partnership,2015
+B00890,Jyoti Freight Lines Pvt,Logistics,BR01,Private limited,1994
+B00891,Prakash Polymers Pvt,Specialty chemicals,BR07,Private limited,2017
+B00892,Narmada Fabrics,Textiles,BR03,Partnership,2001
+B00893,Aarav Formulations,Pharmaceuticals,BR10,Private limited,1990
+B00894,Ganga Formulations Pvt,Pharmaceuticals,BR10,Private limited,1997
+B00895,Ganga Logistics,Logistics,BR02,Partnership,1999
+B00896,Tara Polymers Co,Specialty chemicals,BR02,Private limited,2002
+B00897,Kaveri Stores Industries,Retail,BR09,Private limited,1990
+B00898,Deccan Mart,Retail,BR10,Partnership,2003
+B00899,Sahyadri Life Sciences Enterprises,Pharmaceuticals,BR03,Partnership,1990
+B00900,Chandra Forgings,Auto components,BR01,Private limited,2005
+B00901,Sahyadri Life Sciences Industries,Pharmaceuticals,BR05,Proprietorship,1990
+B00902,Deccan Agro Mills Co,Agri processing,BR03,Private limited,2015
+B00903,Yamuna Freight Lines Co,Logistics,BR05,Private limited,2018
+B00904,Orchid Forgings Industries,Auto components,BR06,Private limited,1989
+B00905,Orchid Foods,Food processing,BR06,Private limited,2008
+B00906,Narmada Digital Services Enterprises,IT services,BR03,Partnership,2000
+B00907,Tara Resorts Co,Hospitality,BR04,Proprietorship,2016
+B00908,Sahyadri Chemicals Industries,Specialty chemicals,BR02,Proprietorship,2016
+B00909,Shivam Builders Industries,Construction,BR01,Private limited,2013
+B00910,Himalaya Hotels,Hospitality,BR06,Private limited,2007
+B00911,Himalaya Builders Co,Construction,BR04,Proprietorship,1992
+B00912,Deccan Stores Pvt,Retail,BR04,Private limited,1992
+B00913,Kaveri Auto Parts Industries,Auto components,BR06,Private limited,2010
+B00914,Himalaya Resorts,Hospitality,BR07,Private limited,2013
+B00915,Udaya Spares Traders Co,Components distribution,BR08,Partnership,1989
+B00916,Lakshmi Systems,IT services,BR01,Partnership,1988
+B00917,Udaya Carriers Co,Logistics,BR09,Partnership,2010
+B00918,Sahyadri Constructions,Construction,BR02,Private limited,1997
+B00919,Nilgiri Snacks,Food processing,BR10,Proprietorship,1997
+B00920,Aarav Forgings Enterprises,Auto components,BR03,Partnership,1992
+B00921,Saraswati Agro Mills Pvt,Agri processing,BR02,Partnership,2007
+B00922,Orchid Agri Foods Pvt,Agri processing,BR04,Proprietorship,1992
+B00923,Prakash Stays Industries,Hospitality,BR03,Partnership,1991
+B00924,Lakshmi Auto Parts Industries,Auto components,BR10,Proprietorship,1990
+B00925,Narmada Spares Traders Pvt,Components distribution,BR07,Private limited,2018
+B00926,Orchid Agri Foods Co,Agri processing,BR09,Private limited,2002
+B00927,Ganga Auto Parts Co,Auto components,BR02,Private limited,2006
+B00928,Tara Castings,Auto components,BR03,Private limited,2013
+B00929,Jyoti Mart Industries,Retail,BR06,Private limited,1993
+B00930,Konark Fabrics Industries,Textiles,BR09,Private limited,2019
+B00931,Prakash Builders,Construction,BR08,Private limited,1991
+B00932,Nilgiri Infra Projects Pvt,Construction,BR10,Private limited,2004
+B00933,Aarav Formulations Industries,Pharmaceuticals,BR04,Partnership,2013
+B00934,Sahyadri Polymers,Specialty chemicals,BR02,Proprietorship,2004
+B00935,Yamuna Stays,Hospitality,BR10,Partnership,1992
+B00936,Bhoomi Agri Foods Enterprises,Agri processing,BR07,Private limited,1999
+B00937,Indus Foods Co,Food processing,BR09,Private limited,2009
+B00938,Tara Mart,Retail,BR02,Private limited,2013
+B00939,Tara Agri Foods Enterprises,Agri processing,BR10,Private limited,2001
+B00940,Vindhya Resorts Enterprises,Hospitality,BR06,Partnership,2001
+B00941,Prakash Formulations,Pharmaceuticals,BR07,Proprietorship,2001
+B00942,Meru Forgings Pvt,Auto components,BR07,Private limited,2019
+B00943,Konark Weaves,Textiles,BR03,Private limited,2016
+B00944,Orchid Infotech,IT services,BR04,Proprietorship,2018
+B00945,Aarav Infra Projects,Construction,BR08,Private limited,1997
+B00946,Prakash Auto Parts Pvt,Auto components,BR05,Private limited,1991
+B00947,Himalaya Fabrics Co,Textiles,BR05,Private limited,2012
+B00948,Aarav Auto Parts Co,Auto components,BR05,Private limited,1989
+B00949,Kaveri Builders Industries,Construction,BR02,Private limited,2010
+B00950,Konark Forgings Industries,Auto components,BR08,Partnership,1996
+B00951,Yamuna Stores Enterprises,Retail,BR03,Private limited,1993
+B00952,Shivam Spares Traders Enterprises,Components distribution,BR08,Proprietorship,1999
+B00953,Himalaya Life Sciences Enterprises,Pharmaceuticals,BR08,Proprietorship,2019
+B00954,Yamuna Forgings Pvt,Auto components,BR03,Private limited,2004
+B00955,Bhoomi Forgings Co,Auto components,BR05,Private limited,2006
+B00956,Tara Hotels Co,Hospitality,BR06,Private limited,2019
+B00957,Sahyadri Chemicals Co,Specialty chemicals,BR07,Private limited,1996
+B00958,Meru Carriers Industries,Logistics,BR10,Private limited,2011
+B00959,Vindhya Auto Distributors Pvt,Components distribution,BR07,Partnership,1988
+B00960,Konark Weaves Enterprises,Textiles,BR08,Partnership,2010
+B00961,Sahyadri Auto Distributors,Components distribution,BR03,Private limited,2012
+B00962,Prakash Retail Pvt,Retail,BR02,Proprietorship,1995
+B00963,Narmada Foods,Food processing,BR01,Partnership,2015
+B00964,Yamuna Chemicals,Specialty chemicals,BR07,Partnership,2018
+B00965,Himalaya Formulations Enterprises,Pharmaceuticals,BR01,Private limited,1990
+B00966,Meru Stays Co,Hospitality,BR08,Proprietorship,1990
+B00967,Saraswati Agri Foods Pvt,Agri processing,BR06,Proprietorship,1994
+B00968,Orchid Logistics Co,Logistics,BR02,Private limited,2019
+B00969,Vindhya Agri Foods Pvt,Agri processing,BR06,Partnership,1995
+B00970,Jyoti Castings Industries,Auto components,BR06,Private limited,2010
+B00971,Konark Auto Distributors Co,Components distribution,BR04,Private limited,2009
+B00972,Konark Auto Parts Enterprises,Auto components,BR06,Private limited,2011
+B00973,Indus Spares Traders Pvt,Components distribution,BR03,Private limited,2018
+B00974,Lakshmi Retail Pvt,Retail,BR09,Partnership,2010
+B00975,Konark Freight Lines Pvt,Logistics,BR07,Private limited,1992
+B00976,Sahyadri Snacks,Food processing,BR03,Partnership,2004
+B00977,Sahyadri Foods Pvt,Food processing,BR02,Partnership,1988
+B00978,Himalaya Stays Industries,Hospitality,BR01,Private limited,1990
+B00979,Shivam Stores,Retail,BR04,Private limited,1993
+B00980,Aarav Life Sciences Industries,Pharmaceuticals,BR10,Private limited,1988
+B00981,Aarav Spinning Mills Pvt,Textiles,BR04,Proprietorship,2019
+B00982,Aarav Carriers,Logistics,BR08,Proprietorship,2010
+B00983,Sahyadri Auto Distributors Enterprises,Components distribution,BR09,Private limited,2018
+B00984,Konark Constructions Co,Construction,BR09,Partnership,1990
+B00985,Tara Spares Traders Enterprises,Components distribution,BR06,Private limited,1998
+B00986,Vindhya Spares Traders Industries,Components distribution,BR07,Partnership,2011
+B00987,Ekta Mart,Retail,BR01,Partnership,1988
+B00988,Meru Snacks Pvt,Food processing,BR09,Private limited,1997
+B00989,Lakshmi Auto Distributors,Components distribution,BR01,Partnership,1998
+B00990,Aarav Digital Services Pvt,IT services,BR07,Private limited,2000
+B00991,Bhoomi Freight Lines,Logistics,BR04,Partnership,1990
+B00992,Nilgiri Auto Parts,Auto components,BR09,Private limited,2015
+B00993,Deccan Constructions Industries,Construction,BR05,Partnership,1999
+B00994,Ekta Auto Distributors Industries,Components distribution,BR01,Private limited,2013
+B00995,Prakash Life Sciences,Pharmaceuticals,BR03,Partnership,2016
+B00996,Sahyadri Weaves Pvt,Textiles,BR07,Private limited,1994
+B00997,Yamuna Systems,IT services,BR01,Proprietorship,1998
+B00998,Jyoti Formulations Co,Pharmaceuticals,BR02,Partnership,2002
+B00999,Nilgiri Digital Services Enterprises,IT services,BR06,Private limited,2003
+B01000,Orchid Logistics Industries,Logistics,BR09,Partnership,2019
+B01001,Shivam Weaves Industries,Textiles,BR07,Partnership,1997
+B01002,Sahyadri Forgings Co,Auto components,BR02,Private limited,1992
+B01003,Konark Stays,Hospitality,BR02,Private limited,1996
+B01004,Narmada Agro Mills Enterprises,Agri processing,BR02,Partnership,2015
+B01005,Konark Builders Industries,Construction,BR09,Partnership,2009
+B01006,Udaya Auto Parts,Auto components,BR04,Private limited,1998
+B01007,Lakshmi Polymers Co,Specialty chemicals,BR10,Private limited,1998
+B01008,Indus Systems Enterprises,IT services,BR04,Private limited,2008
+B01009,Saraswati Life Sciences Pvt,Pharmaceuticals,BR07,Private limited,2002
+B01010,Himalaya Castings Co,Auto components,BR01,Partnership,2008
+B01011,Vindhya Spares Traders Co,Components distribution,BR10,Partnership,2004
+B01012,Orchid Life Sciences Co,Pharmaceuticals,BR03,Private limited,1998
+B01013,Yamuna Infotech Enterprises,IT services,BR05,Partnership,1993
+B01014,Vindhya Agro Mills,Agri processing,BR07,Private limited,2016
+B01015,Meru Logistics Enterprises,Logistics,BR02,Proprietorship,2001
+B01016,Orchid Polymers Pvt,Specialty chemicals,BR03,Partnership,1990
+B01017,Sahyadri Resorts,Hospitality,BR01,Partnership,1999
+B01018,Ganga Freight Lines,Logistics,BR05,Private limited,2014
+B01019,Lakshmi Weaves Pvt,Textiles,BR05,Partnership,2008
+B01020,Ganga Infra Projects,Construction,BR02,Partnership,1995
+B01021,Deccan Castings Enterprises,Auto components,BR01,Private limited,1999
+B01022,Aarav Auto Parts Enterprises,Auto components,BR08,Partnership,2018
+B01023,Tara Dairy Pvt,Food processing,BR02,Proprietorship,2012
+B01024,Deccan Spares Traders Enterprises,Components distribution,BR05,Private limited,1989
+B01025,Himalaya Polymers Industries,Specialty chemicals,BR07,Private limited,2006
+B01026,Himalaya Fabrics Pvt,Textiles,BR03,Private limited,2006
+B01027,Ekta Agro Mills Industries,Agri processing,BR06,Partnership,1993
+B01028,Tara Spares Traders Pvt,Components distribution,BR09,Proprietorship,2009
+B01029,Ganga Auto Distributors Enterprises,Components distribution,BR02,Private limited,2002
+B01030,Deccan Freight Lines,Logistics,BR10,Private limited,2011
+B01031,Saraswati Snacks Enterprises,Food processing,BR09,Proprietorship,2016
+B01032,Konark Castings Pvt,Auto components,BR05,Private limited,2005
+B01033,Ganga Constructions Co,Construction,BR10,Private limited,1991
+B01034,Nilgiri Stays,Hospitality,BR09,Private limited,2018
+B01035,Shivam Dairy Pvt,Food processing,BR09,Private limited,2016
+B01036,Prakash Forgings,Auto components,BR09,Partnership,2010
+B01037,Narmada Snacks Enterprises,Food processing,BR03,Partnership,2018
+B01038,Nilgiri Infotech Industries,IT services,BR09,Partnership,1992
+B01039,Chandra Freight Lines Pvt,Logistics,BR10,Private limited,2000
+B01040,Narmada Retail,Retail,BR08,Private limited,1998
+B01041,Jyoti Spares Traders Industries,Components distribution,BR06,Proprietorship,2010
+B01042,Konark Foods Co,Food processing,BR06,Partnership,2016
+B01043,Shivam Infotech Enterprises,IT services,BR08,Partnership,2010
+B01044,Ganga Dairy Enterprises,Food processing,BR09,Private limited,2015
+B01045,Ekta Constructions,Construction,BR06,Private limited,1988
+B01046,Himalaya Agri Foods,Agri processing,BR09,Partnership,2004
+B01047,Shivam Stores Pvt,Retail,BR08,Partnership,2001
+B01048,Ekta Auto Parts,Auto components,BR09,Private limited,2000
+B01049,Himalaya Polymers Pvt,Specialty chemicals,BR10,Private limited,1989
+B01050,Prakash Spares Traders Co,Components distribution,BR10,Partnership,1991
+B01051,Meru Polymers,Specialty chemicals,BR03,Private limited,2000
+B01052,Bhoomi Auto Distributors Pvt,Components distribution,BR10,Proprietorship,2016
+B01053,Kaveri Snacks,Food processing,BR01,Partnership,1994
+B01054,Konark Infra Projects Pvt,Construction,BR04,Partnership,2011
+B01055,Ganga Dairy Co,Food processing,BR10,Private limited,2005
+B01056,Meru Retail,Retail,BR06,Partnership,2010
+B01057,Narmada Systems Co,IT services,BR10,Private limited,1999
+B01058,Bhoomi Chemicals Enterprises,Specialty chemicals,BR08,Proprietorship,2007
+B01059,Yamuna Auto Parts Co,Auto components,BR02,Partnership,2012
+B01060,Orchid Hotels,Hospitality,BR09,Proprietorship,2006
+B01061,Sahyadri Formulations Co,Pharmaceuticals,BR07,Private limited,2019
+B01062,Ekta Formulations Industries,Pharmaceuticals,BR09,Private limited,2004
+B01063,Vindhya Logistics Co,Logistics,BR04,Partnership,1999
+B01064,Lakshmi Agri Foods Pvt,Agri processing,BR08,Proprietorship,1993
+B01065,Vindhya Agri Foods Co,Agri processing,BR07,Private limited,1998
+B01066,Konark Systems Enterprises,IT services,BR03,Proprietorship,1992
+B01067,Himalaya Carriers,Logistics,BR10,Proprietorship,1991
+B01068,Himalaya Spares Traders Co,Components distribution,BR03,Partnership,2009
+B01069,Nilgiri Auto Distributors Industries,Components distribution,BR09,Partnership,1988
+B01070,Kaveri Auto Distributors Pvt,Components distribution,BR08,Private limited,1992
+B01071,Deccan Formulations Co,Pharmaceuticals,BR04,Private limited,2019
+B01072,Lakshmi Auto Distributors Pvt,Components distribution,BR03,Private limited,2006
+B01073,Prakash Agri Foods Enterprises,Agri processing,BR01,Private limited,2009
+B01074,Narmada Fabrics Co,Textiles,BR09,Private limited,2009
+B01075,Ekta Freight Lines,Logistics,BR04,Private limited,1999
+B01076,Tara Resorts Enterprises,Hospitality,BR03,Partnership,1999
+B01077,Nilgiri Hotels,Hospitality,BR05,Private limited,2019
+B01078,Nilgiri Resorts,Hospitality,BR01,Proprietorship,1999
+B01079,Vindhya Infra Projects Co,Construction,BR03,Partnership,2013
+B01080,Lakshmi Spinning Mills Industries,Textiles,BR03,Private limited,2015
+B01081,Yamuna Spares Traders Co,Components distribution,BR02,Partnership,2014
+B01082,Vindhya Stores,Retail,BR06,Proprietorship,1993
+B01083,Tara Agri Foods Pvt,Agri processing,BR03,Partnership,2010
+B01084,Prakash Agro Mills Pvt,Agri processing,BR01,Private limited,2008
+B01085,Udaya Builders Co,Construction,BR01,Proprietorship,1999
+B01086,Indus Stays Co,Hospitality,BR02,Private limited,1993
+B01087,Sahyadri Spares Traders Enterprises,Components distribution,BR09,Partnership,1988
+B01088,Tara Spinning Mills,Textiles,BR03,Partnership,2016
+B01089,Deccan Agri Foods Co,Agri processing,BR06,Partnership,2004
+B01090,Orchid Castings,Auto components,BR03,Partnership,2004
+B01091,Orchid Auto Distributors Enterprises,Components distribution,BR06,Private limited,1990
+B01092,Jyoti Agri Foods Co,Agri processing,BR05,Proprietorship,2017
+B01093,Vindhya Polymers,Specialty chemicals,BR07,Partnership,2008
+B01094,Shivam Forgings Industries,Auto components,BR03,Private limited,2010
+B01095,Meru Weaves Co,Textiles,BR02,Private limited,2013
+B01096,Vindhya Freight Lines Pvt,Logistics,BR03,Private limited,1992
+B01097,Kaveri Weaves Industries,Textiles,BR08,Proprietorship,2011
+B01098,Sahyadri Builders Co,Construction,BR08,Partnership,1991
+B01099,Deccan Agro Mills Industries,Agri processing,BR01,Partnership,1993
+B01100,Deccan Weaves,Textiles,BR07,Partnership,2000
+B01101,Prakash Constructions,Construction,BR05,Private limited,2011
+B01102,Lakshmi Auto Parts Enterprises,Auto components,BR10,Private limited,2000
+B01103,Saraswati Auto Parts,Auto components,BR02,Proprietorship,1991
+B01104,Meru Formulations Industries,Pharmaceuticals,BR07,Proprietorship,2013
+B01105,Chandra Hotels,Hospitality,BR06,Private limited,2012
+B01106,Lakshmi Life Sciences Enterprises,Pharmaceuticals,BR01,Proprietorship,1992
+B01107,Chandra Chemicals Enterprises,Specialty chemicals,BR08,Private limited,1998
+B01108,Jyoti Forgings,Auto components,BR03,Partnership,2017
+B01109,Ganga Hotels,Hospitality,BR10,Private limited,2001
+B01110,Jyoti Auto Parts Enterprises,Auto components,BR09,Private limited,1990
+B01111,Himalaya Retail,Retail,BR06,Proprietorship,2004
+B01112,Saraswati Infra Projects Industries,Construction,BR08,Partnership,2005
+B01113,Tara Carriers Co,Logistics,BR06,Proprietorship,1993
+B01114,Yamuna Chemicals Pvt,Specialty chemicals,BR05,Proprietorship,1994
+B01115,Ekta Constructions Pvt,Construction,BR09,Partnership,2015
+B01116,Meru Constructions,Construction,BR07,Private limited,2002
+B01117,Vindhya Dairy Pvt,Food processing,BR02,Private limited,2014
+B01118,Tara Retail,Retail,BR09,Partnership,2017
+B01119,Meru Formulations Enterprises,Pharmaceuticals,BR03,Proprietorship,2012
+B01120,Kaveri Formulations,Pharmaceuticals,BR10,Partnership,2019
+B01121,Jyoti Infra Projects Industries,Construction,BR04,Private limited,1995
+B01122,Kaveri Auto Parts Pvt,Auto components,BR02,Proprietorship,2013
+B01123,Ganga Weaves Industries,Textiles,BR04,Proprietorship,2008
+B01124,Tara Auto Parts Enterprises,Auto components,BR04,Partnership,2004
+B01125,Ekta Hotels Pvt,Hospitality,BR08,Proprietorship,1994
+B01126,Kaveri Builders Pvt,Construction,BR01,Proprietorship,2013
+B01127,Nilgiri Auto Distributors Enterprises,Components distribution,BR01,Proprietorship,2014
+B01128,Orchid Life Sciences Enterprises,Pharmaceuticals,BR08,Proprietorship,2014
+B01129,Indus Spares Traders Enterprises,Components distribution,BR02,Proprietorship,2003
+B01130,Aarav Retail Pvt,Retail,BR10,Partnership,1988
+B01131,Vindhya Forgings Pvt,Auto components,BR06,Partnership,1991
+B01132,Konark Chemicals Enterprises,Specialty chemicals,BR09,Partnership,2004
+B01133,Bhoomi Mart Co,Retail,BR10,Proprietorship,2008
+B01134,Meru Agro Mills Pvt,Agri processing,BR02,Private limited,1988
+B01135,Jyoti Spares Traders Enterprises,Components distribution,BR05,Partnership,1990
+B01136,Himalaya Snacks Industries,Food processing,BR10,Private limited,2018
+B01137,Jyoti Weaves Enterprises,Textiles,BR07,Partnership,2013
+B01138,Himalaya Life Sciences Pvt,Pharmaceuticals,BR06,Private limited,2011
+B01139,Yamuna Snacks,Food processing,BR09,Partnership,1991
+B01140,Yamuna Life Sciences Co,Pharmaceuticals,BR07,Proprietorship,2005
+B01141,Deccan Formulations Enterprises,Pharmaceuticals,BR10,Proprietorship,2003
+B01142,Narmada Infotech Co,IT services,BR08,Partnership,2015
+B01143,Udaya Agro Mills,Agri processing,BR03,Private limited,1996
+B01144,Kaveri Fabrics,Textiles,BR07,Private limited,2014
+B01145,Sahyadri Infotech,IT services,BR02,Proprietorship,2010
+B01146,Udaya Retail Pvt,Retail,BR08,Partnership,2012
+B01147,Indus Agro Mills Industries,Agri processing,BR07,Private limited,1990
+B01148,Orchid Logistics Enterprises,Logistics,BR09,Proprietorship,2018
+B01149,Nilgiri Life Sciences Industries,Pharmaceuticals,BR09,Private limited,1991
+B01150,Prakash Digital Services,IT services,BR07,Private limited,1991
+B01151,Deccan Stays Pvt,Hospitality,BR10,Proprietorship,2019
+B01152,Shivam Agri Foods,Agri processing,BR07,Partnership,1991
+B01153,Ekta Castings Industries,Auto components,BR02,Partnership,1989
+B01154,Konark Forgings Pvt,Auto components,BR09,Partnership,2003
+B01155,Saraswati Constructions,Construction,BR08,Partnership,1998
+B01156,Orchid Forgings Co,Auto components,BR08,Partnership,1993
+B01157,Chandra Fabrics Co,Textiles,BR06,Private limited,2013
+B01158,Chandra Infotech Enterprises,IT services,BR03,Proprietorship,1993
+B01159,Lakshmi Weaves Enterprises,Textiles,BR02,Proprietorship,2001
+B01160,Bhoomi Freight Lines Enterprises,Logistics,BR01,Private limited,2013
+B01161,Meru Chemicals Industries,Specialty chemicals,BR01,Private limited,1994
+B01162,Ekta Dairy Enterprises,Food processing,BR05,Private limited,2009
+B01163,Chandra Dairy,Food processing,BR01,Private limited,2014
+B01164,Nilgiri Agri Foods Pvt,Agri processing,BR07,Partnership,2009
+B01165,Chandra Fabrics Industries,Textiles,BR05,Private limited,2004
+B01166,Meru Auto Parts,Auto components,BR06,Private limited,2019
+B01167,Udaya Auto Distributors Pvt,Components distribution,BR09,Proprietorship,2015
+B01168,Sahyadri Constructions Enterprises,Construction,BR01,Private limited,1989
+B01169,Vindhya Chemicals Enterprises,Specialty chemicals,BR03,Private limited,2017
+B01170,Udaya Life Sciences Co,Pharmaceuticals,BR06,Partnership,2018
+B01171,Tara Formulations Co,Pharmaceuticals,BR03,Proprietorship,2001
+B01172,Indus Polymers Industries,Specialty chemicals,BR09,Partnership,1998
+B01173,Prakash Builders Pvt,Construction,BR10,Partnership,2012
+B01174,Konark Foods Pvt,Food processing,BR09,Partnership,2003
+B01175,Yamuna Agri Foods,Agri processing,BR10,Private limited,2004
+B01176,Indus Agri Foods Industries,Agri processing,BR10,Proprietorship,2013
+B01177,Tara Infotech Industries,IT services,BR06,Private limited,2011
+B01178,Saraswati Snacks Industries,Food processing,BR08,Private limited,2019
+B01179,Bhoomi Constructions Industries,Construction,BR02,Private limited,1988
+B01180,Yamuna Auto Distributors Enterprises,Components distribution,BR10,Partnership,2006
+B01181,Meru Digital Services Enterprises,IT services,BR07,Private limited,2012
+B01182,Prakash Logistics,Logistics,BR04,Proprietorship,1995
+B01183,Prakash Infotech,IT services,BR06,Partnership,2012
+B01184,Ganga Forgings,Auto components,BR01,Private limited,1993
+B01185,Shivam Auto Parts Pvt,Auto components,BR08,Private limited,2005
+B01186,Narmada Weaves Pvt,Textiles,BR05,Partnership,1996
+B01187,Deccan Infra Projects Pvt,Construction,BR05,Private limited,2005
+B01188,Bhoomi Fabrics Co,Textiles,BR05,Private limited,1990
+B01189,Meru Agri Foods Enterprises,Agri processing,BR10,Private limited,2011
+B01190,Tara Forgings Pvt,Auto components,BR09,Private limited,2005
+B01191,Konark Spares Traders Industries,Components distribution,BR10,Private limited,1993
+B01192,Narmada Builders,Construction,BR09,Proprietorship,1995
+B01193,Shivam Auto Distributors Pvt,Components distribution,BR07,Private limited,1988
+B01194,Sahyadri Auto Distributors Industries,Components distribution,BR09,Private limited,2014
+B01195,Prakash Castings Pvt,Auto components,BR03,Private limited,2017
+B01196,Indus Auto Distributors Industries,Components distribution,BR05,Proprietorship,1991
+B01197,Yamuna Stores Industries,Retail,BR08,Proprietorship,2016
+B01198,Konark Agri Foods Co,Agri processing,BR08,Private limited,1996
+B01199,Himalaya Stores,Retail,BR09,Partnership,2017
+B01200,Udaya Freight Lines Enterprises,Logistics,BR06,Private limited,1995

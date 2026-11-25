@@ -1,0 +1,22 @@
+{
+  "name": "Credence",
+  "dataColors": [
+    "#27336F",
+    "#C3841A",
+    "#2D7A57",
+    "#B13A3D",
+    "#5B6FB8",
+    "#8F9BB3",
+    "#E0B25C",
+    "#6E4C8E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#161B23",
+  "tableAccent": "#27336F",
+  "good": "#2D7A57",
+  "neutral": "#C3841A",
+  "bad": "#B13A3D",
+  "maximum": "#27336F",
+  "center": "#C3841A",
+  "minimum": "#E6E8F3"
+}
