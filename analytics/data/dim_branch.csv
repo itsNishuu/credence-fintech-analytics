@@ -1,0 +1,11 @@
+branch_id,city,region
+BR01,Pune,West
+BR02,Mumbai,West
+BR03,Ahmedabad,West
+BR04,Chennai,South
+BR05,Coimbatore,South
+BR06,Bengaluru,South
+BR07,Delhi NCR,North
+BR08,Ludhiana,North
+BR09,Kolkata,East
+BR10,Indore,Central

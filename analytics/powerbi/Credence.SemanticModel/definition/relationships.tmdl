@@ -1,0 +1,27 @@
+relationship c11333de-984f-59a6-ab90-5e2532ae6fce
+	fromColumn: 'Loan Month'.'Loan ID'
+	toColumn: Loan.'Loan ID'
+
+relationship 8b2e96aa-467f-50ad-962f-e169bf1e03f3
+	fromColumn: 'Loan Month'.'Month End'
+	toColumn: Calendar.'Month End'
+
+relationship fc440db4-2816-5f98-9dde-8cdfa3653fbe
+	fromColumn: Financials.'Loan ID'
+	toColumn: Loan.'Loan ID'
+
+relationship 5ebbabce-2eeb-5253-ba35-d21f6395934e
+	fromColumn: Financials.'Quarter End'
+	toColumn: Calendar.'Month End'
+
+relationship 94141d7e-6dd0-5bd1-8c83-4179287ffccb
+	fromColumn: Loan.'Borrower ID'
+	toColumn: Borrower.'Borrower ID'
+
+relationship 8ca6f3a8-8ed6-5c5f-bede-d25bcec5a59b
+	fromColumn: Loan.'Origination Grade'
+	toColumn: Grade.Grade
+
+relationship 71889877-eea4-5302-b5b6-df06753ccf35
+	fromColumn: Borrower.'Branch ID'
+	toColumn: Branch.'Branch ID'

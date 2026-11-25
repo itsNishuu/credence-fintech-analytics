@@ -1,0 +1,38 @@
+table Grade
+
+	column Grade
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Grade
+		sortByColumn: 'Grade Rank'
+
+	column 'Min Score'
+		dataType: double
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Min Score
+
+	column 'PD 12m'
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: PD 12m
+
+	column 'Grade Rank'
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: Grade Rank
+
+	partition Grade = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_grade"),
+				    Renamed = Table.RenameColumns(Source, {{"grade", "Grade"}, {"min_score", "Min Score"}, {"pd_12m", "PD 12m"}, {"grade_rank", "Grade Rank"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Grade", type text}, {"Min Score", type number}, {"PD 12m", type number}, {"Grade Rank", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

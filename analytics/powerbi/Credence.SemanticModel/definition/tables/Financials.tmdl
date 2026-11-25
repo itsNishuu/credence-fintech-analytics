@@ -1,0 +1,103 @@
+table Financials
+
+	column 'Loan ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Loan ID
+
+	column 'Quarter End'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		isHidden
+		summarizeBy: none
+		sourceColumn: Quarter End
+
+	column 'Revenue Lakh'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: Revenue Lakh
+
+	column 'EBITDA Lakh'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: EBITDA Lakh
+
+	column 'CFADS Lakh'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: CFADS Lakh
+
+	column 'Debt Service Lakh'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: Debt Service Lakh
+
+	column Score
+		dataType: double
+		formatString: 0.0
+		summarizeBy: none
+		sourceColumn: Score
+
+	column DSCR = DIVIDE ( Financials[CFADS Lakh], Financials[Debt Service Lakh] )
+		formatString: 0.00
+		summarizeBy: none
+
+	measure 'Latest Quarter' =
+			VAR LastMonth = MAX ( 'Calendar'[Month End] )
+			RETURN
+			    CALCULATE ( MAX ( Financials[Quarter End] ), REMOVEFILTERS ( 'Calendar' ), Financials[Quarter End] <= LastMonth )
+		formatString: dd mmm yyyy
+		displayFolder: Cover
+
+	measure 'Latest DSCR' =
+			VAR Q = [Latest Quarter]
+			RETURN
+			    CALCULATE ( AVERAGE ( Financials[DSCR] ), REMOVEFILTERS ( 'Calendar' ), Financials[Quarter End] = Q )
+		formatString: 0.00
+		displayFolder: Cover
+
+	measure 'Median DSCR' =
+			VAR Q = CALCULATE ( MAX ( Financials[Quarter End] ), REMOVEFILTERS ( 'Calendar' ), Financials[Quarter End] <= MAX ( 'Calendar'[Month End] ) )
+			RETURN
+			    CALCULATE ( MEDIAN ( Financials[DSCR] ), REMOVEFILTERS ( 'Calendar' ), Financials[Quarter End] = Q )
+		formatString: 0.00
+		displayFolder: Cover
+
+	measure 'Covenant Breach Exposure' =
+			-- Performing loans whose latest DSCR is below the 1.25x covenant
+			SUMX (
+			    VALUES ( Loan[Loan ID] ),
+			    VAR Cover = [Latest DSCR]
+			    VAR Performing = CALCULATE ( [Exposure], 'Loan Month'[DPD] <= 90 )
+			    RETURN
+			        IF ( NOT ISBLANK ( Cover ) && Cover < 1.25, Performing )
+			)
+		formatString: #,0.0
+		displayFolder: Cover
+
+	measure 'Covenant Breaches' =
+			COUNTROWS ( FILTER ( VALUES ( Loan[Loan ID] ), NOT ISBLANK ( [Covenant Breach Exposure] ) ) )
+		formatString: #,0
+		displayFolder: Cover
+
+	measure 'Covenant Breach %' =
+			DIVIDE ( [Covenant Breach Exposure], [Exposure] )
+		formatString: 0.0%
+		displayFolder: Cover
+
+	partition Financials = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("fact_financials_quarter"),
+				    Renamed = Table.RenameColumns(Source, {{"loan_id", "Loan ID"}, {"quarter_end", "Quarter End"}, {"revenue_lakh", "Revenue Lakh"}, {"ebitda_lakh", "EBITDA Lakh"}, {"cfads_lakh", "CFADS Lakh"}, {"debt_service_lakh", "Debt Service Lakh"}, {"score", "Score"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Loan ID", type text}, {"Quarter End", type date}, {"Revenue Lakh", type number}, {"EBITDA Lakh", type number}, {"CFADS Lakh", type number}, {"Debt Service Lakh", type number}, {"Score", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

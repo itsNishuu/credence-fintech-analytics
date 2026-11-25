@@ -1,0 +1,147 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "d103d572694d5c16a3ef",
+  "position": {
+    "x": 656,
+    "y": 144,
+    "z": 6000,
+    "width": 608,
+    "height": 560,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Branch"
+                    }
+                  },
+                  "Property": "City"
+                }
+              },
+              "queryRef": "Branch.City",
+              "nativeQueryRef": "City"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Branch"
+                    }
+                  },
+                  "Property": "Region"
+                }
+              },
+              "queryRef": "Branch.Region",
+              "nativeQueryRef": "Region"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "Exposure"
+                }
+              },
+              "queryRef": "Loan Month.Exposure",
+              "nativeQueryRef": "Exposure"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "Gross NPA %"
+                }
+              },
+              "queryRef": "Loan Month.Gross NPA %",
+              "nativeQueryRef": "Gross NPA %"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "30+ DPD %"
+                }
+              },
+              "queryRef": "Loan Month.30+ DPD %",
+              "nativeQueryRef": "30+ DPD %"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financials"
+                    }
+                  },
+                  "Property": "Covenant Breach %"
+                }
+              },
+              "queryRef": "Financials.Covenant Breach %",
+              "nativeQueryRef": "Covenant Breach %"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Loan Month"
+                  }
+                },
+                "Property": "Gross NPA %"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Branch league table'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,19 @@
+/// Folder or URL holding the CSV files. Use a local path ending in a backslash, e.g. C:\credence\analytics\data\
+expression DataSource = "https://raw.githubusercontent.com/itsNishuu/credence-fintech-analytics/main/analytics/data/" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+
+	annotation PBI_ResultType = Text
+
+/// Loads one CSV from DataSource and promotes its header row.
+expression LoadCsv =
+		(name as text) as table =>
+		let
+		    Raw =
+		        if Text.StartsWith(DataSource, "http")
+		        then Web.Contents(DataSource, [RelativePath = name & ".csv"])
+		        else File.Contents(DataSource & name & ".csv"),
+		    Csv = Csv.Document(Raw, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+		    Promoted = Table.PromoteHeaders(Csv, [PromoteAllScalars = true])
+		in
+		    Promoted
+
+	annotation PBI_ResultType = Function

@@ -1,0 +1,48 @@
+table Calendar
+
+	column 'Month End'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		summarizeBy: none
+		sourceColumn: Month End
+
+	column Year
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Year
+
+	column 'Month Number'
+		dataType: int64
+		formatString: 0
+		isHidden
+		summarizeBy: none
+		sourceColumn: Month Number
+
+	column Month
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month End'
+
+	column Quarter
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	column 'Fiscal Year'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Fiscal Year
+
+	partition Calendar = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_date"),
+				    Renamed = Table.RenameColumns(Source, {{"month_end", "Month End"}, {"year", "Year"}, {"month", "Month Number"}, {"month_name", "Month"}, {"quarter", "Quarter"}, {"fiscal_year", "Fiscal Year"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Month End", type date}, {"Year", Int64.Type}, {"Month Number", Int64.Type}, {"Month", type text}, {"Quarter", type text}, {"Fiscal Year", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "45b22c05e6595e5e9474",
+  "position": {
+    "x": 16,
+    "y": 144,
+    "z": 5000,
+    "width": 760,
+    "height": 280,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Month End"
+                }
+              },
+              "queryRef": "Calendar.Month End",
+              "nativeQueryRef": "Month End",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "Gross NPA %"
+                }
+              },
+              "queryRef": "Loan Month.Gross NPA %",
+              "nativeQueryRef": "Gross NPA %"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Loan Month"
+                    }
+                  },
+                  "Property": "30+ DPD %"
+                }
+              },
+              "queryRef": "Loan Month.30+ DPD %",
+              "nativeQueryRef": "30+ DPD %"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Asset quality trend'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

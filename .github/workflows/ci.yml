@@ -12,3 +12,16 @@ jobs:
         run: for f in src/*.js; do node --check "$f"; done
       - name: Engine tests
         run: npm test
+  analytics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: SQL and Power BI checks
+        run: python -m unittest discover -s analytics/tests -v
+      - name: Results are reproducible
+        run: |
+          python analytics/run_sql.py
+          git diff --exit-code analytics/output

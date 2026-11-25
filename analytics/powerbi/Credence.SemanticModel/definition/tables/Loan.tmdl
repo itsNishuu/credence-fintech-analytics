@@ -1,0 +1,77 @@
+table Loan
+
+	column 'Loan ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Loan ID
+
+	column 'Borrower ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Borrower ID
+
+	column Product
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Product
+
+	column 'Sanction Date'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		summarizeBy: none
+		sourceColumn: Sanction Date
+
+	column 'Sanctioned Lakh'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: Sanctioned Lakh
+
+	column 'Tenor Months'
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Tenor Months
+
+	column 'Interest Rate Pct'
+		dataType: double
+		formatString: 0.00
+		summarizeBy: none
+		sourceColumn: Interest Rate Pct
+
+	column 'Collateral Lakh'
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: sum
+		sourceColumn: Collateral Lakh
+
+	column 'Origination Grade'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Origination Grade
+
+	column 'Exit Month'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		summarizeBy: none
+		sourceColumn: Exit Month
+
+	column 'Exit Reason'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Exit Reason
+
+	partition Loan = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_loan"),
+				    Blanks = Table.ReplaceValue(Source, "", null, Replacer.ReplaceValue, {"exit_month", "exit_reason"}),
+				    Renamed = Table.RenameColumns(Blanks, {{"loan_id", "Loan ID"}, {"borrower_id", "Borrower ID"}, {"product", "Product"}, {"sanction_date", "Sanction Date"}, {"sanctioned_lakh", "Sanctioned Lakh"}, {"tenor_months", "Tenor Months"}, {"interest_rate_pct", "Interest Rate Pct"}, {"collateral_lakh", "Collateral Lakh"}, {"origination_grade", "Origination Grade"}, {"exit_month", "Exit Month"}, {"exit_reason", "Exit Reason"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Loan ID", type text}, {"Borrower ID", type text}, {"Product", type text}, {"Sanction Date", type date}, {"Sanctioned Lakh", type number}, {"Tenor Months", Int64.Type}, {"Interest Rate Pct", type number}, {"Collateral Lakh", type number}, {"Origination Grade", type text}, {"Exit Month", type date}, {"Exit Reason", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

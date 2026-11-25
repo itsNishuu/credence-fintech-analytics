@@ -1,0 +1,29 @@
+table Branch
+
+	column 'Branch ID'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Branch ID
+
+	column City
+		dataType: string
+		summarizeBy: none
+		sourceColumn: City
+
+	column Region
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Region
+
+	partition Branch = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_branch"),
+				    Renamed = Table.RenameColumns(Source, {{"branch_id", "Branch ID"}, {"city", "City"}, {"region", "Region"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Branch ID", type text}, {"City", type text}, {"Region", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
